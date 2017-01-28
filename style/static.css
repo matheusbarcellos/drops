@@ -1,0 +1,584 @@
+* {
+    overflow: hidden;
+}
+
+body {
+
+    -ms-touch-action: none;
+    touch-action: none;
+
+}
+
+.dropbackground {
+    
+    width: 10.3125%;
+    max-width: 528;
+    height: auto;
+    position: absolute;
+    top: 44.31069444444444%;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.nofriendsdropbackground {
+    
+    width: 10.3125%;
+    max-width: 528;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.verticaldropbackground {
+    
+    width: 15.88888888888889%;
+    max-width: 343.2;
+    max-height: 8.9375%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.lilac {
+    
+    left: 8.22166015625%;
+    
+}
+
+.blue {
+    
+    left: 18.6874609375%;
+    
+}
+
+.green {
+    
+    left: 29.155%;
+    
+}
+
+.yellow {
+    
+    left: 39.63669921875%;
+    
+}
+
+.orange {
+    
+    left: 50.10421875%;
+    
+}
+
+.red {
+    
+    left: 60.49439453125%;
+    
+}
+
+.chocolate {
+    
+    left: 70.868828125%;
+    
+}
+
+.verticallilac {
+    
+    top: 17.66294270833333%;
+    
+}
+
+.verticalblue {
+    
+    top: 26.73330729166667%;
+    
+}
+
+.verticalgreen {
+    
+    top: 35.80518229166667%;
+    
+}
+
+.verticalyellow {
+    
+    top: 44.88932291666667%;
+    
+}
+
+.verticalorange {
+    
+    top: 53.961171875%;
+    
+}
+
+.verticalred {
+    
+    top: 62.96598958333333%;
+    
+}
+
+.verticalchocolate {
+    
+    top: 71.95716145833333%;
+    
+}
+
+#dropmirrorreward {
+    
+    width: 4.86%;
+    max-width: 248.832;
+    height: auto;
+    position: absolute;
+    top: 64.31385416666667%;
+    left: 7.85439453125%;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#scorecontainer {
+    
+    text-align: left;
+    width: 24.66796875%;
+    max-width: 1263;
+    height: auto;
+    position: absolute;
+    top: 64.31385416666667%;
+    left: 24.716796875%;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#dropmirrorrecord {
+    
+    width: 4.86%;
+    max-width: 248.832;
+    height: auto;
+    position: absolute;
+    top: 64.31385416666667%;
+    left: 71.016953125%;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#scorecontainerrecord {
+    
+    text-align: right;
+    width: 24.66796875%;
+    max-width: 1263;
+    height: auto;
+    position: absolute;
+    top: 64.31385416666667%;
+    left: 54.16015625%;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.spreadbutton {
+    
+    width: 3.65625%;
+    max-width: 187.2;
+    height: auto;
+    top: 92.32208333333333%;
+    position: absolute;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.verticalspreadbutton {
+    
+    height: 4.166666666666667%;
+    max-height: 160;
+    width: auto;
+    top: 95.70375%;
+    position: absolute;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#messenger {
+    
+    left: 90.71009765625%;
+    
+}
+
+#whatsapp {
+    
+    left: 96.27025390625%;
+    
+}
+
+#line {
+    
+    left: 90.71009765625%;
+    
+}
+
+#kakao {
+    
+    left: 96.27025390625%;
+    
+}
+
+#messengerweb {
+    
+    left: 90.71009765625%;
+    
+}
+
+#twitterweb {
+    
+    left: 96.27025390625%;
+    
+}
+
+.bugdropbackground {
+    
+    width: 10.3125%;
+    max-width: 528;
+    height: auto;
+    position: absolute;
+    top: 44.31069444444444%;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.nofriendsbugdropbackground {
+    
+    width: 10.3125%;
+    max-width: 528;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.verticalbugdropbackground {
+    
+    width: 15.88888888888889%;
+    max-width: 343.2;
+    max-height: 8.9375%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#mobile {
+    
+    display: none;
+    
+}
+
+#notmobile {
+    
+    display: inline;
+    
+}
+
+#trophynamecontainer {
+    
+    text-align: left;
+    width: 24.83068359375%;
+    max-width: 1271.331;
+    max-height: 5.764895833333333%;
+    height: auto;
+    position: absolute;
+    top: 75.30430555555556%;
+    left: 58.655078125%;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#trophyscorecontainer {
+    
+    text-align: left;
+    width: 24.83068359375%;
+    max-width: 1271.331;
+    max-height: 5.764895833333333%;
+    height: auto;
+    position: absolute;
+    top: 81.06920138888889%;
+    left: 58.655078125%;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#medalnamecontainer {
+    
+    text-align: right;
+    width: 23.06873046875%;
+    max-width: 1181.119;
+    max-height: 4.431944444444444%;
+    height: auto;
+    position: absolute;
+    top: 90.77934027777778%;
+    left: 40.89095703125%;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#medalscorecontainer {
+    
+    text-align: right;
+    width: 23.06873046875%;
+    max-width: 1181.119;
+    max-height: 4.431944444444444%;
+    height: auto;
+    position: absolute;
+    top: 95.21128472222222%;
+    left: 40.89095703125%;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#medal {
+    
+    width: 2.70232421875%;
+    max-width: 138.359;
+    height: auto;
+    top: 92.03559027777778%;
+    left: 63.34716796875%;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    
+}
+
+.badge {
+    
+    width: 13.121875%;
+    max-width: 671.84;
+    height: auto;
+    position: absolute;
+    top: 92.32208333333333%;
+    left: 7.7328125%;
+    z-index: 8;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.verticalbadge {
+    
+    height: 5.208333333333333%;
+    max-height: 200;
+    width: auto;
+    position: absolute;
+    top: 95.70375%;
+    left: 14.74074074074074%;
+    z-index: 8;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.mobilebadge {
+    
+    width: 10.7421875%;
+    max-width: 550;
+    height: auto;
+    position: absolute;
+    top: 81.90541666666667%;
+    left: 6.54296875%;
+    z-index: 8;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.mobileverticalbadge {
+    
+    height: 5.208333333333333%;
+    max-height: 200;
+    width: auto;
+    position: absolute;
+    top: 88.85479166666667%;
+    left: 14.74074074074074%;
+    z-index: 8;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#googleplaybadge {
+    
+    display: none;
+    
+}
+
+#background {
+    
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 41;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+#heart {
+    
+    width: 13.671875%;
+    max-width: 700;
+    height: auto;
+    top: 47.91666666666667%;
+    left: 50%;
+    z-index: 42;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#adbutton {
+        
+    display: none;
+    width: 11.9140625%;
+    max-width: 610;
+    height: auto;
+    top: 76.39576388888889%;
+    left: 50.9765625%;
+    z-index: 42;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#lifetimercontainer {
+    
+    text-align: center;
+    width: 13.07353515625%;
+    max-width: 669.365;
+    height: auto;
+    position: absolute;
+    top: 20.85649305555556%;
+    left: 50%;
+    z-index: 42;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#lives {
+    
+    z-index: 42;
+    
+}
