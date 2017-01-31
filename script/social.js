@@ -81,6 +81,12 @@ function retrievescorerecord () {
                     localStorage.scorerecord = String(scorerecord);
                     document.getElementById("scorerecord").innerHTML = scorerecord;
                     
+                    if (scorerecord > 0) {
+                        
+                        hint(1);  
+                        
+                    };
+                    
                 };
 
                 iscore++;
@@ -94,6 +100,12 @@ function retrievescorerecord () {
 
             scorerecord = Number(localStorage.scorerecord);
             document.getElementById("scorerecord").innerHTML = scorerecord;
+            
+            if (scorerecord > 0) {
+                        
+                hint(1);  
+
+            };
 
         } else {
             

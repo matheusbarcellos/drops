@@ -97,11 +97,7 @@ function uichangecolor(reset) {
         
     } else if (ii === 1) {
         
-        if (scorerecord === 0) {
-                
-                hint(1);
-                
-            };
+        hint(1);
         
         if ((score === 0) && (scorerecord <= 1)) {
             
