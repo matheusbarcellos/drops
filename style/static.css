@@ -58,6 +58,55 @@ body {
     
 }
 
+.now {
+    
+    width: 4.08267578125%;
+    max-width: 209.033;
+    height: auto;
+    position: absolute;
+    top: 44.31069444444444%;
+    z-index: 4;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.nofriendsnow {
+    
+    width: 4.08267578125%;
+    max-width: 209.033;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    z-index: 4;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+.verticalnow {
+    
+    width: 9.677453703703704%;
+    max-width: 209.033;
+    max-height: 1.978567708333333%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    z-index: 4;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
 .lilac {
     
     left: 8.22166015625%;
@@ -263,6 +312,12 @@ body {
 }
 
 #kakao {
+    
+    left: 96.27025390625%;
+    
+}
+
+#twitter {
     
     left: 96.27025390625%;
     

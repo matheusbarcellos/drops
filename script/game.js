@@ -13,10 +13,11 @@ var adloaded = false;
 var nobadge = false;
 var ismobile = false;
 var timerinterstitial = null;
+var iOS = false;
 
 var admobid = {
-      interstitial: 'ca-app-pub-8981199425859729/8716144697'
-      //reward: 'ca-app-pub-8981199425859729/9056588291'
+      interstitial: 'xxxxxxxxx'
+      //reward: 'xxxxxxxxx'
     };
 
 function timerchangecolor() {
@@ -42,7 +43,35 @@ function uichangecolor(reset) {
     };
     
     if (ii === 0) {
+        
+        if (score === 0) {
+            
+            hint(0);  
+                    
+            if (i[0] === i[1]) {
 
+                document.getElementById("nowlilac").style.display = "inline";
+                document.getElementById("nowblue").style.display = "none";
+                document.getElementById("nowgreen").style.display = "none";
+                document.getElementById("nowyellow").style.display = "none";
+                document.getElementById("noworange").style.display = "none";
+                document.getElementById("nowred").style.display = "none";
+                document.getElementById("nowchocolate").style.display = "none";
+
+            } else {
+
+                document.getElementById("nowlilac").style.display = "none";
+                document.getElementById("nowblue").style.display = "none";
+                document.getElementById("nowgreen").style.display = "none";
+                document.getElementById("nowyellow").style.display = "none";
+                document.getElementById("noworange").style.display = "none";
+                document.getElementById("nowred").style.display = "none";
+                document.getElementById("nowchocolate").style.display = "none";
+
+            };
+            
+        };
+        
         document.getElementById("buglilac").style.display = "none";
         svgdroplilac.getElementById("dropsface").setAttribute("fill", colorface[i[0]]);
         svgdroplilac.getElementById("dropsback1").setAttribute("fill", colorback[i[0]]);
@@ -63,6 +92,34 @@ function uichangecolor(reset) {
         };
         
     } else if (ii === 1) {
+        
+        hint(1);
+        
+        if (score === 0) {
+            
+            if (i[0] === i[1]) {
+
+                document.getElementById("nowlilac").style.display = "none";
+                document.getElementById("nowblue").style.display = "inline";
+                document.getElementById("nowgreen").style.display = "none";
+                document.getElementById("nowyellow").style.display = "none";
+                document.getElementById("noworange").style.display = "none";
+                document.getElementById("nowred").style.display = "none";
+                document.getElementById("nowchocolate").style.display = "none";
+
+            } else {
+
+                document.getElementById("nowlilac").style.display = "none";
+                document.getElementById("nowblue").style.display = "none";
+                document.getElementById("nowgreen").style.display = "none";
+                document.getElementById("nowyellow").style.display = "none";
+                document.getElementById("noworange").style.display = "none";
+                document.getElementById("nowred").style.display = "none";
+                document.getElementById("nowchocolate").style.display = "none";
+
+            };
+            
+        };
         
         document.getElementById("profile").style.opacity = "0.25";
         document.getElementById("profile").style.filter  = 'alpha(opacity=25)';
@@ -86,6 +143,32 @@ function uichangecolor(reset) {
         
     } else if (ii === 2) {
         
+        if (score === 0) {
+            
+            if (i[0] === i[1]) {
+
+                document.getElementById("nowlilac").style.display = "none";
+                document.getElementById("nowblue").style.display = "none";
+                document.getElementById("nowgreen").style.display = "inline";
+                document.getElementById("nowyellow").style.display = "none";
+                document.getElementById("noworange").style.display = "none";
+                document.getElementById("nowred").style.display = "none";
+                document.getElementById("nowchocolate").style.display = "none";
+
+            } else {
+
+                document.getElementById("nowlilac").style.display = "none";
+                document.getElementById("nowblue").style.display = "none";
+                document.getElementById("nowgreen").style.display = "none";
+                document.getElementById("nowyellow").style.display = "none";
+                document.getElementById("noworange").style.display = "none";
+                document.getElementById("nowred").style.display = "none";
+                document.getElementById("nowchocolate").style.display = "none";
+
+            };
+            
+        };
+        
         document.getElementById("buggreen").style.display = "none";
         svgdropgreen.getElementById("dropsface").setAttribute("fill", colorface[i[0]]);
         svgdropgreen.getElementById("dropsback1").setAttribute("fill", colorback[i[0]]);
@@ -99,6 +182,32 @@ function uichangecolor(reset) {
         svgdropgreen.getElementById("dropsback9").setAttribute("fill", colorback[i[0]]);
         
     } else if (ii === 3) {
+        
+        if (score === 0) {
+            
+            if (i[0] === i[1]) {
+
+                document.getElementById("nowlilac").style.display = "none";
+                document.getElementById("nowblue").style.display = "none";
+                document.getElementById("nowgreen").style.display = "none";
+                document.getElementById("nowyellow").style.display = "inline";
+                document.getElementById("noworange").style.display = "none";
+                document.getElementById("nowred").style.display = "none";
+                document.getElementById("nowchocolate").style.display = "none";
+
+            } else {
+
+                document.getElementById("nowlilac").style.display = "none";
+                document.getElementById("nowblue").style.display = "none";
+                document.getElementById("nowgreen").style.display = "none";
+                document.getElementById("nowyellow").style.display = "none";
+                document.getElementById("noworange").style.display = "none";
+                document.getElementById("nowred").style.display = "none";
+                document.getElementById("nowchocolate").style.display = "none";
+
+            };
+            
+        };
         
         document.getElementById("bugyellow").style.display = "none";
         svgdropyellow.getElementById("dropsface").setAttribute("fill", colorface[i[0]]);
@@ -114,6 +223,32 @@ function uichangecolor(reset) {
         
     } else if (ii === 4) {
         
+        if (score === 0) {
+            
+            if (i[0] === i[1]) {
+
+                document.getElementById("nowlilac").style.display = "none";
+                document.getElementById("nowblue").style.display = "none";
+                document.getElementById("nowgreen").style.display = "none";
+                document.getElementById("nowyellow").style.display = "none";
+                document.getElementById("noworange").style.display = "inline";
+                document.getElementById("nowred").style.display = "none";
+                document.getElementById("nowchocolate").style.display = "none";
+
+            } else {
+
+                document.getElementById("nowlilac").style.display = "none";
+                document.getElementById("nowblue").style.display = "none";
+                document.getElementById("nowgreen").style.display = "none";
+                document.getElementById("nowyellow").style.display = "none";
+                document.getElementById("noworange").style.display = "none";
+                document.getElementById("nowred").style.display = "none";
+                document.getElementById("nowchocolate").style.display = "none";
+
+            };
+            
+        };
+        
         document.getElementById("bugorange").style.display = "none";
         svgdroporange.getElementById("dropsface").setAttribute("fill", colorface[i[0]]);
         svgdroporange.getElementById("dropsback1").setAttribute("fill", colorback[i[0]]);
@@ -128,6 +263,32 @@ function uichangecolor(reset) {
         
     } else if (ii === 5) {
         
+        if (score === 0) {
+            
+            if (i[0] === i[1]) {
+
+                document.getElementById("nowlilac").style.display = "none";
+                document.getElementById("nowblue").style.display = "none";
+                document.getElementById("nowgreen").style.display = "none";
+                document.getElementById("nowyellow").style.display = "none";
+                document.getElementById("noworange").style.display = "none";
+                document.getElementById("nowred").style.display = "inline";
+                document.getElementById("nowchocolate").style.display = "none";
+
+            } else {
+
+                document.getElementById("nowlilac").style.display = "none";
+                document.getElementById("nowblue").style.display = "none";
+                document.getElementById("nowgreen").style.display = "none";
+                document.getElementById("nowyellow").style.display = "none";
+                document.getElementById("noworange").style.display = "none";
+                document.getElementById("nowred").style.display = "none";
+                document.getElementById("nowchocolate").style.display = "none";
+
+            };
+            
+        };
+        
         document.getElementById("bugred").style.display = "none";
         svgdropred.getElementById("dropsface").setAttribute("fill", colorface[i[0]]);
         svgdropred.getElementById("dropsback1").setAttribute("fill", colorback[i[0]]);
@@ -141,6 +302,32 @@ function uichangecolor(reset) {
         svgdropred.getElementById("dropsback9").setAttribute("fill", colorback[i[0]]);
         
     } else if (ii === 6) {
+        
+        if (score === 0) {
+            
+            if (i[0] === i[1]) {
+
+                document.getElementById("nowlilac").style.display = "none";
+                document.getElementById("nowblue").style.display = "none";
+                document.getElementById("nowgreen").style.display = "none";
+                document.getElementById("nowyellow").style.display = "none";
+                document.getElementById("noworange").style.display = "none";
+                document.getElementById("nowred").style.display = "none";
+                document.getElementById("nowchocolate").style.display = "inline";
+
+            } else {
+
+                document.getElementById("nowlilac").style.display = "none";
+                document.getElementById("nowblue").style.display = "none";
+                document.getElementById("nowgreen").style.display = "none";
+                document.getElementById("nowyellow").style.display = "none";
+                document.getElementById("noworange").style.display = "none";
+                document.getElementById("nowred").style.display = "none";
+                document.getElementById("nowchocolate").style.display = "none";
+
+            };
+            
+        };
     
         document.getElementById("reward").style.opacity = "1";
         document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
@@ -213,6 +400,14 @@ function checkcolor(reset) {
         document.getElementById("bugred").style.display = "inline";
         document.getElementById("bugchocolate").style.display = "inline";
         
+        document.getElementById("nowlilac").style.display = "none";
+        document.getElementById("nowblue").style.display = "none";
+        document.getElementById("nowgreen").style.display = "none";
+        document.getElementById("nowyellow").style.display = "none";
+        document.getElementById("noworange").style.display = "none";
+        document.getElementById("nowred").style.display = "none";
+        document.getElementById("nowchocolate").style.display = "none";
+        
     } else {
         
         ii++;
@@ -276,46 +471,46 @@ function checkcolor(reset) {
 function speedup() {
 
     if (score === 0) {
-    
+
         speed = 500;
         clearInterval(timer);
         timerchangecolor();
-        
+
     } else if (speed === 500) {
       
-      speed = 400;
-      clearInterval(timer);
-      timerchangecolor();
+        speed = 400;
+        clearInterval(timer);
+        timerchangecolor();
       
-  } else if (speed === 400) {
-      
-      speed = 300;
-      clearInterval(timer);
-      timerchangecolor();
-      
-  } else if (iOS === true) {
-      
-      if (speed === 300) {
-      
-          speed = 200;
-          clearInterval(timer);
-          timerchangecolor();
+    } else if (speed === 400) {
 
-      } else if (speed === 200) {
-      
-          speed = 150;
-          clearInterval(timer);
-          timerchangecolor();
+        speed = 300;
+        clearInterval(timer);
+        timerchangecolor();
 
-      };
-      
-  } else if (speed === 300) {
-      
-      speed = 250;
-      clearInterval(timer);
-      timerchangecolor();
-      
-  };
+    } else if (iOS === true) {
+
+        if (speed === 300) {
+
+            speed = 200;
+            clearInterval(timer);
+            timerchangecolor();
+
+        } else if (speed === 200) {
+
+            speed = 150;
+            clearInterval(timer);
+            timerchangecolor();
+
+        };
+
+    } else if (speed === 300) {
+
+        speed = 250;
+        clearInterval(timer);
+        timerchangecolor();
+
+    };
     
 };
 
@@ -477,7 +672,8 @@ function device() {
         document.getElementById("googleplaybadge").style.display = "none";
         nobadge = true;
         ismobile = true;
-        //speedup();
+        iOS = true;
+        speedup();
         //speedupanimation();
         clickdelay();
 
@@ -487,7 +683,8 @@ function device() {
         document.getElementById("mobile").style.display = "none";
         document.getElementById("googleplaybadge").style.display = "none";
         nobadge = true;
-        //speedup();
+        iOS = true;
+        speedup();
         //speedupanimation();
         clickdelay();
 
@@ -559,6 +756,14 @@ function orientationhandler(index) {
             document.getElementById("bugorange").className = "verticalbugdropbackground verticalorange";
             document.getElementById("bugred").className = "verticalbugdropbackground verticalred";
             document.getElementById("bugchocolate").className = "verticalbugdropbackground verticalchocolate";
+            
+            document.getElementById("nowlilac").className = "verticalnow verticallilac";
+            document.getElementById("nowblue").className = "verticalnow verticalblue";
+            document.getElementById("nowgreen").className = "verticalnow verticalgreen";
+            document.getElementById("nowyellow").className = "verticalnow verticalyellow";
+            document.getElementById("noworange").className = "verticalnow verticalorange";
+            document.getElementById("nowred").className = "verticalnow verticalred";
+            document.getElementById("nowchocolate").className = "verticalnow verticalchocolate";
             
             // Control            
             document.getElementById("buttonlilac").className = "verticalbutton verticalbuttonup";
@@ -755,6 +960,14 @@ function orientationhandler(index) {
                 document.getElementById("bugred").className = "nofriendsbugdropbackground red";
                 document.getElementById("bugchocolate").className = "nofriendsbugdropbackground chocolate";
                 
+                document.getElementById("nowlilac").className = "nofriendsnow lilac";
+                document.getElementById("nowblue").className = "nofriendsnow blue";
+                document.getElementById("nowgreen").className = "nofriendsnow green";
+                document.getElementById("nowyellow").className = "nofriendsnow yellow";
+                document.getElementById("noworange").className = "nofriendsnow orange";
+                document.getElementById("nowred").className = "nofriendsnow red";
+                document.getElementById("nowchocolate").className = "nofriendsnow chocolate";
+                
             } else {
               
                 document.getElementById("lilac").className = "dropbackground lilac";
@@ -780,6 +993,14 @@ function orientationhandler(index) {
                 document.getElementById("bugorange").className = "bugdropbackground orange";
                 document.getElementById("bugred").className = "bugdropbackground red";
                 document.getElementById("bugchocolate").className = "bugdropbackground chocolate";
+                
+                document.getElementById("nowlilac").className = "now lilac";
+                document.getElementById("nowblue").className = "now blue";
+                document.getElementById("nowgreen").className = "now green";
+                document.getElementById("nowyellow").className = "now yellow";
+                document.getElementById("noworange").className = "now orange";
+                document.getElementById("nowred").className = "now red";
+                document.getElementById("nowchocolate").className = "now chocolate";
                 
             };
             
