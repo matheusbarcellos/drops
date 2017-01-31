@@ -197,6 +197,12 @@ function hidelives() {
     document.getElementById("leaderboard").style.opacity = "1";
     document.getElementById("leaderboard").style.filter  = 'alpha(opacity=100)';
     
+    if (scorerecord === 0) {
+                
+        hint(0);
+
+    };
+    
 };
 
 function adreward() {

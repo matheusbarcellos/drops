@@ -44,6 +44,12 @@ function uichangecolor(reset) {
     
     if (ii === 0) {
         
+        if (scorerecord === 0) {
+                
+            hint(0);
+
+        };
+        
         if ((score === 0) && (scorerecord <= 1)) {
                     
             if (i[0] === i[1]) {
