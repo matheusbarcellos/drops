@@ -13,7 +13,7 @@ var adloaded = false;
 var nobadge = false;
 var ismobile = false;
 var timerinterstitial = null;
-var iOS = false;
+//var iOS = false;
 
 var admobid = {
       interstitial: 'xxxxxxxxx'
@@ -44,9 +44,7 @@ function uichangecolor(reset) {
     
     if (ii === 0) {
         
-        if (score === 0) {
-            
-            hint(0);  
+        if ((score === 0) && (scorerecord <= 1)) {
                     
             if (i[0] === i[1]) {
 
@@ -93,9 +91,13 @@ function uichangecolor(reset) {
         
     } else if (ii === 1) {
         
-        hint(1);
+        if (scorerecord === 0) {
+                
+                hint(1);
+                
+            };
         
-        if (score === 0) {
+        if ((score === 0) && (scorerecord <= 1)) {
             
             if (i[0] === i[1]) {
 
@@ -143,7 +145,7 @@ function uichangecolor(reset) {
         
     } else if (ii === 2) {
         
-        if (score === 0) {
+        if ((score === 0) && (scorerecord <= 1)) {
             
             if (i[0] === i[1]) {
 
@@ -183,7 +185,7 @@ function uichangecolor(reset) {
         
     } else if (ii === 3) {
         
-        if (score === 0) {
+        if ((score === 0) && (scorerecord <= 1)) {
             
             if (i[0] === i[1]) {
 
@@ -223,7 +225,7 @@ function uichangecolor(reset) {
         
     } else if (ii === 4) {
         
-        if (score === 0) {
+        if ((score === 0) && (scorerecord <= 1)) {
             
             if (i[0] === i[1]) {
 
@@ -263,7 +265,7 @@ function uichangecolor(reset) {
         
     } else if (ii === 5) {
         
-        if (score === 0) {
+        if ((score === 0) && (scorerecord <= 1)) {
             
             if (i[0] === i[1]) {
 
@@ -303,7 +305,7 @@ function uichangecolor(reset) {
         
     } else if (ii === 6) {
         
-        if (score === 0) {
+        if ((score === 0) && (scorerecord <= 1)) {
             
             if (i[0] === i[1]) {
 
@@ -488,7 +490,7 @@ function speedup() {
         clearInterval(timer);
         timerchangecolor();
 
-    } else if (iOS === true) {
+    /*} else if (iOS === true) {
 
         if (speed === 300) {
 
@@ -502,7 +504,7 @@ function speedup() {
             clearInterval(timer);
             timerchangecolor();
 
-        };
+        };*/
 
     } else if (speed === 300) {
 
@@ -591,6 +593,11 @@ function itsalive() {
 
         document.getElementById("loading").style.display = "none";
         showlives();
+        if (scorerecord === 0) {
+                
+            hint(0);
+
+        };
 
     }, 2000);
 
@@ -672,7 +679,7 @@ function device() {
         document.getElementById("googleplaybadge").style.display = "none";
         nobadge = true;
         ismobile = true;
-        iOS = true;
+        //iOS = true;
         speedup();
         //speedupanimation();
         clickdelay();
@@ -683,7 +690,7 @@ function device() {
         document.getElementById("mobile").style.display = "none";
         document.getElementById("googleplaybadge").style.display = "none";
         nobadge = true;
-        iOS = true;
+        //iOS = true;
         speedup();
         //speedupanimation();
         clickdelay();
