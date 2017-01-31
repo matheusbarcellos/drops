@@ -682,7 +682,7 @@ function device() {
         nobadge = true;
         ismobile = true;
         //iOS = true;
-        speedup();
+        //speedup();
         //speedupanimation();
         clickdelay();
 
@@ -693,7 +693,7 @@ function device() {
         document.getElementById("googleplaybadge").style.display = "none";
         nobadge = true;
         //iOS = true;
-        speedup();
+        //speedup();
         //speedupanimation();
         clickdelay();
 
