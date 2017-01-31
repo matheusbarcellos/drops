@@ -224,13 +224,7 @@ function timergameover(index) {
         document.getElementById("spread").style.opacity = "1";
         document.getElementById("spread").style.filter  = 'alpha(opacity=100)'; 
         document.getElementById("leaderboard").style.opacity = "1";
-        document.getElementById("leaderboard").style.filter  = 'alpha(opacity=100)'; 
-        
-        if (scorerecord === 0) {
-                
-            hint(0);
-
-        };
+        document.getElementById("leaderboard").style.filter  = 'alpha(opacity=100)';
         
         timerover = null;
 

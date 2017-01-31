@@ -12,6 +12,7 @@
 
 .button {
     
+    cursor: pointer;
     height: auto;
     position: absolute;
     top: 44.31069444444444%;
@@ -27,6 +28,7 @@
 
 .nofriendsbutton {
     
+    cursor: pointer;
     height: auto;
     position: absolute;
     top: 50%;
@@ -42,6 +44,7 @@
 
 .verticalbutton {
     
+    cursor: pointer;
     height: auto;
     position: absolute;
     top: 90.07875%;
@@ -57,6 +60,7 @@
 
 .buttonup {
     
+    cursor: pointer;
     width: 17.2265625%;
     max-width: 882;
     z-index: 2;
@@ -65,6 +69,7 @@
 
 .verticalbuttonup {
     
+    cursor: pointer;
     width: auto;
     max-width: 574;
     max-height: 14.94791666666667%;
@@ -81,6 +86,7 @@
 
 .verticalbuttondown {
     
+    cursor: pointer;
     max-height: 14.375%;
     
 }
@@ -134,7 +140,7 @@
     height: auto;
     position: absolute;
     top: 44.31069444444444%;
-    z-index: 1;
+    z-index: 2;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -150,7 +156,7 @@
     height: auto;
     position: absolute;
     top: 50%;
-    z-index: 1;
+    z-index: 2;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -166,7 +172,7 @@
     max-width: 186.186;
     position: absolute;
     left: 50%;
-    z-index: 1;
+    z-index: 2;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -630,6 +636,7 @@
 
 #loginbutton {
     
+    cursor: pointer;
     width: 5.68359375%;
     max-width: 291;
     height: auto;
@@ -797,6 +804,7 @@
 
 #invitebutton {
     
+    cursor: pointer;
     width: 5.65306640625%;
     max-width: 289.437;
     height: auto;
@@ -965,7 +973,4 @@
     text-shadow: #8D563E 0px 0px 2px;
     /*-webkit-text-stroke: 2px #8d563e;*/
     
-}
-#droplilac {
-    z-index: 3;
 }
