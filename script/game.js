@@ -221,6 +221,33 @@ function tutorial() {
             
         document.getElementById("profile").style.opacity = "0";
         document.getElementById("profile").style.filter  = 'alpha(opacity=0)';
+    
+        if (score === 0) {
+                
+            document.getElementById("reward").style.opacity = "0";
+            document.getElementById("reward").style.filter  = 'alpha(opacity=0)';  
+
+        } else if (score === 1) {
+            
+            if (ii === 0) {
+                
+                document.getElementById("reward").style.opacity = "1";
+                document.getElementById("reward").style.filter  = 'alpha(opacity=100)';  
+                
+            } else if (ii === 6) {
+                
+                document.getElementById("reward").style.opacity = "1";
+                document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
+                
+            } else {
+                
+                document.getElementById("reward").style.opacity = "0.25";
+                document.getElementById("reward").style.filter  = 'alpha(opacity=25)';
+                
+            };
+            
+        };
+    
         document.getElementById("reward").style.opacity = "0";
         document.getElementById("reward").style.filter  = 'alpha(opacity=0)';
         document.getElementById("spread").style.opacity = "0";
@@ -584,9 +611,6 @@ function tutorial() {
             document.getElementById("bugred").style.filter  = 'alpha(opacity=100)';
             document.getElementById("bugchocolate").style.opacity = "1";
             document.getElementById("bugchocolate").style.filter  = 'alpha(opacity=100)';
-            
-            document.getElementById("reward").style.opacity = "1";
-            document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
 
         };
             
