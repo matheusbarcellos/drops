@@ -205,29 +205,61 @@ function hint(type) {
     
     if (type === 0) {
         
-        document.getElementById("profile").style.opacity = "0.25";
-        document.getElementById("profile").style.filter  = 'alpha(opacity=25)';
-        document.getElementById("circles").style.opacity = "0.25";
-        document.getElementById("circles").style.filter  = 'alpha(opacity=25)';
-        document.getElementById("reward").style.opacity = "0.25";
-        document.getElementById("reward").style.filter  = 'alpha(opacity=25)';
-        document.getElementById("spread").style.opacity = "0.25";
-        document.getElementById("spread").style.filter  = 'alpha(opacity=25)';
-        document.getElementById("leaderboard").style.opacity = "0.25";
-        document.getElementById("leaderboard").style.filter  = 'alpha(opacity=25)';
+        if (ii === 0) {
+            
+            document.getElementById("profile").style.opacity = "0.25";
+            document.getElementById("profile").style.filter  = 'alpha(opacity=25)';
+            document.getElementById("circles").style.opacity = "0.25";
+            document.getElementById("circles").style.filter  = 'alpha(opacity=25)';
+            document.getElementById("reward").style.opacity = "0.25";
+            document.getElementById("reward").style.filter  = 'alpha(opacity=25)';
+            document.getElementById("spread").style.opacity = "0.25";
+            document.getElementById("spread").style.filter  = 'alpha(opacity=25)';
+            document.getElementById("leaderboard").style.opacity = "0.25";
+            document.getElementById("leaderboard").style.filter  = 'alpha(opacity=25)';
+            
+        } else if (ii === 6) {
+            
+            document.getElementById("circles").style.opacity = "0.25";
+            document.getElementById("circles").style.filter  = 'alpha(opacity=25)';
+            document.getElementById("reward").style.opacity = "0.25";
+            document.getElementById("reward").style.filter  = 'alpha(opacity=25)';
+            
+        } else {
+            
+            document.getElementById("circles").style.opacity = "0.25";
+            document.getElementById("circles").style.filter  = 'alpha(opacity=25)';
+            
+        };
         
     } else if (type === 1) {
         
-        document.getElementById("profile").style.opacity = "1";
-        document.getElementById("profile").style.filter  = 'alpha(opacity=100)';
-        document.getElementById("circles").style.opacity = "1";
-        document.getElementById("circles").style.filter  = 'alpha(opacity=100)';
-        document.getElementById("reward").style.opacity = "1";
-        document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
-        document.getElementById("spread").style.opacity = "1";
-        document.getElementById("spread").style.filter  = 'alpha(opacity=100)'; 
-        document.getElementById("leaderboard").style.opacity = "1";
-        document.getElementById("leaderboard").style.filter  = 'alpha(opacity=100)';  
+        if (ii === 0) {
+            
+            document.getElementById("profile").style.opacity = "1";
+            document.getElementById("profile").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("circles").style.opacity = "1";
+            document.getElementById("circles").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("reward").style.opacity = "1";
+            document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("spread").style.opacity = "1";
+            document.getElementById("spread").style.filter  = 'alpha(opacity=100)'; 
+            document.getElementById("leaderboard").style.opacity = "1";
+            document.getElementById("leaderboard").style.filter  = 'alpha(opacity=100)'; 
+            
+        } else if (ii === 6) {
+            
+            document.getElementById("circles").style.opacity = "1";
+            document.getElementById("circles").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("reward").style.opacity = "1";
+            document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
+            
+        } else {
+            
+            document.getElementById("circles").style.opacity = "1";
+            document.getElementById("circles").style.filter  = 'alpha(opacity=100)';
+            
+        };
         
         document.getElementById("droplilac").style.opacity = "1";
         document.getElementById("droplilac").style.filter  = 'alpha(opacity=100)';
