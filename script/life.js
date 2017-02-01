@@ -80,18 +80,27 @@ function showlives() {
     
     showinglives = true;
     
-    document.getElementById("profile").style.opacity = "0.25";
-    document.getElementById("profile").style.filter  = 'alpha(opacity=25)';
     document.getElementById("game").style.opacity = "0.25";
     document.getElementById("game").style.filter  = 'alpha(opacity=25)';
     document.getElementById("control").style.opacity = "0.25";
     document.getElementById("control").style.filter  = 'alpha(opacity=25)';
-    document.getElementById("reward").style.opacity = "0.25";
-    document.getElementById("reward").style.filter  = 'alpha(opacity=25)';
-    document.getElementById("spread").style.opacity = "0.25";
-    document.getElementById("spread").style.filter  = 'alpha(opacity=25)';
-    document.getElementById("leaderboard").style.opacity = "0.25";
-    document.getElementById("leaderboard").style.filter  = 'alpha(opacity=25)';
+    
+    if (scorerecord <= 1) {
+            
+        tutorial();
+
+    } else {
+    
+        document.getElementById("profile").style.opacity = "0.25";
+        document.getElementById("profile").style.filter  = 'alpha(opacity=25)';
+        document.getElementById("reward").style.opacity = "0.25";
+        document.getElementById("reward").style.filter  = 'alpha(opacity=25)';
+        document.getElementById("spread").style.opacity = "0.25";
+        document.getElementById("spread").style.filter  = 'alpha(opacity=25)';
+        document.getElementById("leaderboard").style.opacity = "0.25";
+        document.getElementById("leaderboard").style.filter  = 'alpha(opacity=25)';
+        
+    };
     
     document.getElementById("lives").style.display = "inline";
     
@@ -184,18 +193,27 @@ function hidelives() {
     
     document.getElementById("lives").style.display = "none";
     
-    document.getElementById("profile").style.opacity = "1";
-    document.getElementById("profile").style.filter  = 'alpha(opacity=100)';
     document.getElementById("game").style.opacity = "1";
     document.getElementById("game").style.filter  = 'alpha(opacity=100)';
     document.getElementById("control").style.opacity = "1";
     document.getElementById("control").style.filter  = 'alpha(opacity=100)';
-    document.getElementById("reward").style.opacity = "1";
-    document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
-    document.getElementById("spread").style.opacity = "1";
-    document.getElementById("spread").style.filter  = 'alpha(opacity=100)'; 
-    document.getElementById("leaderboard").style.opacity = "1";
-    document.getElementById("leaderboard").style.filter  = 'alpha(opacity=100)';
+    
+    if (scorerecord <= 1) {
+            
+        tutorial();
+
+    } else {
+    
+        document.getElementById("profile").style.opacity = "1";
+        document.getElementById("profile").style.filter  = 'alpha(opacity=100)';
+        document.getElementById("reward").style.opacity = "1";
+        document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
+        document.getElementById("spread").style.opacity = "1";
+        document.getElementById("spread").style.filter  = 'alpha(opacity=100)'; 
+        document.getElementById("leaderboard").style.opacity = "1";
+        document.getElementById("leaderboard").style.filter  = 'alpha(opacity=100)';
+        
+    };
     
 };
 

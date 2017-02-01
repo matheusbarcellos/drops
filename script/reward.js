@@ -93,18 +93,28 @@ function goodjob() {
         
     };
     
-    document.getElementById("profile").style.opacity = "0.25";
-    document.getElementById("profile").style.filter  = 'alpha(opacity=25)';
     document.getElementById("game").style.opacity = "0.25";
     document.getElementById("game").style.filter  = 'alpha(opacity=25)';
     document.getElementById("control").style.opacity = "0.25";
     document.getElementById("control").style.filter  = 'alpha(opacity=25)';
-    document.getElementById("reward").style.opacity = "0.25";
-    document.getElementById("reward").style.filter  = 'alpha(opacity=25)';
-    document.getElementById("spread").style.opacity = "0.25";
-    document.getElementById("spread").style.filter  = 'alpha(opacity=25)';
-    document.getElementById("leaderboard").style.opacity = "0.25";
-    document.getElementById("leaderboard").style.filter  = 'alpha(opacity=25)';
+    
+    if (scorerecord <= 1) {
+            
+        tutorial();
+
+    } else {
+        
+        document.getElementById("profile").style.opacity = "0.25";
+        document.getElementById("profile").style.filter  = 'alpha(opacity=25)';
+        document.getElementById("reward").style.opacity = "0.25";
+        document.getElementById("reward").style.filter  = 'alpha(opacity=25)';
+        document.getElementById("spread").style.opacity = "0.25";
+        document.getElementById("spread").style.filter  = 'alpha(opacity=25)';
+        document.getElementById("leaderboard").style.opacity = "0.25";
+        document.getElementById("leaderboard").style.filter  = 'alpha(opacity=25)';
+        
+    };
+    
     document.getElementById("scoreplus").style.display = "inline";
     timergameover(1);
     
@@ -128,18 +138,27 @@ function fail() {
         
     };
     
-    document.getElementById("profile").style.opacity = "0.25";
-    document.getElementById("profile").style.filter  = 'alpha(opacity=25)';
     document.getElementById("game").style.opacity = "0.25";
     document.getElementById("game").style.filter  = 'alpha(opacity=25)';
     document.getElementById("control").style.opacity = "0.25";
     document.getElementById("control").style.filter  = 'alpha(opacity=25)';
-    document.getElementById("reward").style.opacity = "0.25";
-    document.getElementById("reward").style.filter  = 'alpha(opacity=25)';
-    document.getElementById("spread").style.opacity = "0.25";
-    document.getElementById("spread").style.filter  = 'alpha(opacity=25)';
-    document.getElementById("leaderboard").style.opacity = "0.25";
-    document.getElementById("leaderboard").style.filter  = 'alpha(opacity=25)';
+    
+    if (scorerecord <= 1) {
+            
+        tutorial();
+
+    } else {
+    
+        document.getElementById("profile").style.opacity = "0.25";
+        document.getElementById("profile").style.filter  = 'alpha(opacity=25)';
+        document.getElementById("reward").style.opacity = "0.25";
+        document.getElementById("reward").style.filter  = 'alpha(opacity=25)';
+        document.getElementById("spread").style.opacity = "0.25";
+        document.getElementById("spread").style.filter  = 'alpha(opacity=25)';
+        document.getElementById("leaderboard").style.opacity = "0.25";
+        document.getElementById("leaderboard").style.filter  = 'alpha(opacity=25)';
+        
+    };
     
     if (score <= scorerecord) {
         
@@ -213,18 +232,28 @@ function timergameover(index) {
         document.getElementById("gameover").style.display = "none";
         document.getElementById("scoreplus").style.display = "none";
         document.getElementById("newrecord").style.display = "none";
-        document.getElementById("profile").style.opacity = "1";
-        document.getElementById("profile").style.filter  = 'alpha(opacity=100)';
+        
         document.getElementById("game").style.opacity = "1";
         document.getElementById("game").style.filter  = 'alpha(opacity=100)';
         document.getElementById("control").style.opacity = "1";
         document.getElementById("control").style.filter  = 'alpha(opacity=100)';
-        document.getElementById("reward").style.opacity = "1";
-        document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
-        document.getElementById("spread").style.opacity = "1";
-        document.getElementById("spread").style.filter  = 'alpha(opacity=100)'; 
-        document.getElementById("leaderboard").style.opacity = "1";
-        document.getElementById("leaderboard").style.filter  = 'alpha(opacity=100)';
+        
+        if (scorerecord <= 1) {
+            
+            tutorial();
+        
+        } else {
+            
+            document.getElementById("profile").style.opacity = "1";
+            document.getElementById("profile").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("reward").style.opacity = "1";
+            document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("spread").style.opacity = "1";
+            document.getElementById("spread").style.filter  = 'alpha(opacity=100)'; 
+            document.getElementById("leaderboard").style.opacity = "1";
+            document.getElementById("leaderboard").style.filter  = 'alpha(opacity=100)'; 
+            
+        };
         
         timerover = null;
 

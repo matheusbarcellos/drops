@@ -215,6 +215,147 @@ function uihint() {
     
 };
 
+function tutorial() {
+    
+    //if (scorerecord <= 1) {
+            
+        document.getElementById("profile").style.opacity = "0";
+        document.getElementById("profile").style.filter  = 'alpha(opacity=0)';
+        document.getElementById("reward").style.opacity = "0";
+        document.getElementById("reward").style.filter  = 'alpha(opacity=0)';
+        document.getElementById("spread").style.opacity = "0";
+        document.getElementById("spread").style.filter  = 'alpha(opacity=0)';
+        document.getElementById("leaderboard").style.opacity = "0";
+        document.getElementById("leaderboard").style.filter  = 'alpha(opacity=0)';
+        
+        if (ii === 0) {
+
+            document.getElementById("lilac").style.opacity = "1";
+            document.getElementById("lilac").style.filter  = 'alpha(opacity=100)';            
+            document.getElementById("blue").style.opacity = "0";
+            document.getElementById("blue").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("green").style.opacity = "0";
+            document.getElementById("green").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("yellow").style.opacity = "0";
+            document.getElementById("yellow").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("orange").style.opacity = "0";
+            document.getElementById("orange").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("red").style.opacity = "0";
+            document.getElementById("red").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("chocolate").style.opacity = "0";
+            document.getElementById("chocolate").style.filter  = 'alpha(opacity=0)';
+
+        } else if (ii === 1) {
+            
+            document.getElementById("lilac").style.opacity = "1";
+            document.getElementById("lilac").style.filter  = 'alpha(opacity=100)';            
+            document.getElementById("blue").style.opacity = "1";
+            document.getElementById("blue").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("green").style.opacity = "0";
+            document.getElementById("green").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("yellow").style.opacity = "0";
+            document.getElementById("yellow").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("orange").style.opacity = "0";
+            document.getElementById("orange").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("red").style.opacity = "0";
+            document.getElementById("red").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("chocolate").style.opacity = "0";
+            document.getElementById("chocolate").style.filter  = 'alpha(opacity=0)';
+            
+        } else if (ii === 2) {
+            
+            document.getElementById("lilac").style.opacity = "1";
+            document.getElementById("lilac").style.filter  = 'alpha(opacity=100)';            
+            document.getElementById("blue").style.opacity = "1";
+            document.getElementById("blue").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("green").style.opacity = "1";
+            document.getElementById("green").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("yellow").style.opacity = "0";
+            document.getElementById("yellow").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("orange").style.opacity = "0";
+            document.getElementById("orange").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("red").style.opacity = "0";
+            document.getElementById("red").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("chocolate").style.opacity = "0";
+            document.getElementById("chocolate").style.filter  = 'alpha(opacity=0)';
+            
+        } else if (ii === 3) {
+            
+            document.getElementById("lilac").style.opacity = "1";
+            document.getElementById("lilac").style.filter  = 'alpha(opacity=100)';            
+            document.getElementById("blue").style.opacity = "1";
+            document.getElementById("blue").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("green").style.opacity = "1";
+            document.getElementById("green").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("yellow").style.opacity = "1";
+            document.getElementById("yellow").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("orange").style.opacity = "0";
+            document.getElementById("orange").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("red").style.opacity = "0";
+            document.getElementById("red").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("chocolate").style.opacity = "0";
+            document.getElementById("chocolate").style.filter  = 'alpha(opacity=0)';
+
+        } else if (ii === 4) {
+
+            document.getElementById("lilac").style.opacity = "1";
+            document.getElementById("lilac").style.filter  = 'alpha(opacity=100)';            
+            document.getElementById("blue").style.opacity = "1";
+            document.getElementById("blue").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("green").style.opacity = "1";
+            document.getElementById("green").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("yellow").style.opacity = "1";
+            document.getElementById("yellow").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("orange").style.opacity = "1";
+            document.getElementById("orange").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("red").style.opacity = "0";
+            document.getElementById("red").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("chocolate").style.opacity = "0";
+            document.getElementById("chocolate").style.filter  = 'alpha(opacity=0)';
+
+        } else if (ii === 5) {
+
+            document.getElementById("lilac").style.opacity = "1";
+            document.getElementById("lilac").style.filter  = 'alpha(opacity=100)';            
+            document.getElementById("blue").style.opacity = "1";
+            document.getElementById("blue").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("green").style.opacity = "1";
+            document.getElementById("green").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("yellow").style.opacity = "1";
+            document.getElementById("yellow").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("orange").style.opacity = "1";
+            document.getElementById("orange").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("red").style.opacity = "1";
+            document.getElementById("red").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("chocolate").style.opacity = "0";
+            document.getElementById("chocolate").style.filter  = 'alpha(opacity=0)';
+            
+        } else if (ii === 6) {
+
+            document.getElementById("lilac").style.opacity = "1";
+            document.getElementById("lilac").style.filter  = 'alpha(opacity=100)';            
+            document.getElementById("blue").style.opacity = "1";
+            document.getElementById("blue").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("green").style.opacity = "1";
+            document.getElementById("green").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("yellow").style.opacity = "1";
+            document.getElementById("yellow").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("orange").style.opacity = "1";
+            document.getElementById("orange").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("red").style.opacity = "1";
+            document.getElementById("red").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("chocolate").style.opacity = "1";
+            document.getElementById("chocolate").style.filter  = 'alpha(opacity=100)';
+            
+            document.getElementById("reward").style.opacity = "1";
+            document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
+
+        };
+            
+    //};
+    
+};
+
 function uichangecolor(reset) {
     
     if ((i[0] + 1) > reset) {
@@ -228,6 +369,12 @@ function uichangecolor(reset) {
     };
     
     if (ii === 0) {
+        
+        if (scorerecord <= 1) {
+            
+            tutorial();
+        
+        };
         
         document.getElementById("buglilac").style.display = "none";
         svgdroplilac.getElementById("dropsface").setAttribute("fill", colorface[i[0]]);
@@ -250,14 +397,23 @@ function uichangecolor(reset) {
         
     } else if (ii === 1) {
         
-        document.getElementById("profile").style.opacity = "0.25";
-        document.getElementById("profile").style.filter  = 'alpha(opacity=25)';
-        document.getElementById("reward").style.opacity = "0.25";
-        document.getElementById("reward").style.filter  = 'alpha(opacity=25)';
-        document.getElementById("spread").style.opacity = "0.25";
-        document.getElementById("spread").style.filter  = 'alpha(opacity=25)';
-        document.getElementById("leaderboard").style.opacity = "0.25";
-        document.getElementById("leaderboard").style.filter  = 'alpha(opacity=25)';
+        if (scorerecord <= 1) {
+            
+            tutorial();
+        
+        } else {
+            
+            document.getElementById("profile").style.opacity = "0.25";
+            document.getElementById("profile").style.filter  = 'alpha(opacity=25)';
+            document.getElementById("reward").style.opacity = "0.25";
+            document.getElementById("reward").style.filter  = 'alpha(opacity=25)';
+            document.getElementById("spread").style.opacity = "0.25";
+            document.getElementById("spread").style.filter  = 'alpha(opacity=25)';
+            document.getElementById("leaderboard").style.opacity = "0.25";
+            document.getElementById("leaderboard").style.filter  = 'alpha(opacity=25)';
+            
+        };
+        
         document.getElementById("bugblue").style.display = "none";
         svgdropblue.getElementById("dropsface").setAttribute("fill", colorface[i[0]]);
         svgdropblue.getElementById("dropsback1").setAttribute("fill", colorback[i[0]]);
@@ -271,6 +427,12 @@ function uichangecolor(reset) {
         svgdropblue.getElementById("dropsback9").setAttribute("fill", colorback[i[0]]);
         
     } else if (ii === 2) {
+        
+        if (scorerecord <= 1) {
+            
+            tutorial();
+        
+        };
         
         document.getElementById("buggreen").style.display = "none";
         svgdropgreen.getElementById("dropsface").setAttribute("fill", colorface[i[0]]);
@@ -286,6 +448,12 @@ function uichangecolor(reset) {
         
     } else if (ii === 3) {
         
+        if (scorerecord <= 1) {
+            
+            tutorial();
+        
+        };
+        
         document.getElementById("bugyellow").style.display = "none";
         svgdropyellow.getElementById("dropsface").setAttribute("fill", colorface[i[0]]);
         svgdropyellow.getElementById("dropsback1").setAttribute("fill", colorback[i[0]]);
@@ -299,6 +467,12 @@ function uichangecolor(reset) {
         svgdropyellow.getElementById("dropsback9").setAttribute("fill", colorback[i[0]]);
         
     } else if (ii === 4) {
+        
+        if (scorerecord <= 1) {
+            
+            tutorial();
+        
+        };
         
         document.getElementById("bugorange").style.display = "none";
         svgdroporange.getElementById("dropsface").setAttribute("fill", colorface[i[0]]);
@@ -314,6 +488,12 @@ function uichangecolor(reset) {
         
     } else if (ii === 5) {
         
+        if (scorerecord <= 1) {
+            
+            tutorial();
+        
+        };
+        
         document.getElementById("bugred").style.display = "none";
         svgdropred.getElementById("dropsface").setAttribute("fill", colorface[i[0]]);
         svgdropred.getElementById("dropsback1").setAttribute("fill", colorback[i[0]]);
@@ -328,8 +508,17 @@ function uichangecolor(reset) {
         
     } else if (ii === 6) {
         
-        document.getElementById("reward").style.opacity = "1";
-        document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
+        if (scorerecord <= 1) {
+            
+            tutorial();
+        
+        } else {
+            
+            document.getElementById("reward").style.opacity = "1";
+            document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
+            
+        };
+        
         document.getElementById("bugchocolate").style.display = "none";
         svgdropchocolate.getElementById("dropsface").setAttribute("fill", colorface[i[0]]);
         svgdropchocolate.getElementById("dropsback1").setAttribute("fill", colorback[i[0]]);
