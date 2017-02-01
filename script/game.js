@@ -244,6 +244,40 @@ function tutorial() {
             document.getElementById("red").style.filter  = 'alpha(opacity=0)';
             document.getElementById("chocolate").style.opacity = "0";
             document.getElementById("chocolate").style.filter  = 'alpha(opacity=0)';
+            
+            if (i[0] != i[1]) {
+                
+                document.getElementById("droplilac").style.opacity = "1";
+                document.getElementById("droplilac").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropblue").style.opacity = "0";
+                document.getElementById("dropblue").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("dropgreen").style.opacity = "0";
+                document.getElementById("dropgreen").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("dropyellow").style.opacity = "0";
+                document.getElementById("dropyellow").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("droporange").style.opacity = "0";
+                document.getElementById("droporange").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("dropred").style.opacity = "0";
+                document.getElementById("dropred").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("dropchocolate").style.opacity = "0";
+                document.getElementById("dropchocolate").style.filter  = 'alpha(opacity=0)';
+                
+            };
+            
+            document.getElementById("buglilac").style.opacity = "1";
+            document.getElementById("buglilac").style.filter  = 'alpha(opacity=100)';            
+            document.getElementById("bugblue").style.opacity = "0";
+            document.getElementById("bugblue").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("buggreen").style.opacity = "0";
+            document.getElementById("buggreen").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("bugyellow").style.opacity = "0";
+            document.getElementById("bugyellow").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("bugorange").style.opacity = "0";
+            document.getElementById("bugorange").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("bugred").style.opacity = "0";
+            document.getElementById("bugred").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("bugchocolate").style.opacity = "0";
+            document.getElementById("bugchocolate").style.filter  = 'alpha(opacity=0)';
 
         } else if (ii === 1) {
             
@@ -262,6 +296,40 @@ function tutorial() {
             document.getElementById("chocolate").style.opacity = "0";
             document.getElementById("chocolate").style.filter  = 'alpha(opacity=0)';
             
+            if (i[0] != i[1]) {
+                
+                document.getElementById("droplilac").style.opacity = "1";
+                document.getElementById("droplilac").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropblue").style.opacity = "1";
+                document.getElementById("dropblue").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropgreen").style.opacity = "0";
+                document.getElementById("dropgreen").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("dropyellow").style.opacity = "0";
+                document.getElementById("dropyellow").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("droporange").style.opacity = "0";
+                document.getElementById("droporange").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("dropred").style.opacity = "0";
+                document.getElementById("dropred").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("dropchocolate").style.opacity = "0";
+                document.getElementById("dropchocolate").style.filter  = 'alpha(opacity=0)';
+                
+            };
+            
+            document.getElementById("buglilac").style.opacity = "1";
+            document.getElementById("buglilac").style.filter  = 'alpha(opacity=100)';            
+            document.getElementById("bugblue").style.opacity = "1";
+            document.getElementById("bugblue").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("buggreen").style.opacity = "0";
+            document.getElementById("buggreen").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("bugyellow").style.opacity = "0";
+            document.getElementById("bugyellow").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("bugorange").style.opacity = "0";
+            document.getElementById("bugorange").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("bugred").style.opacity = "0";
+            document.getElementById("bugred").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("bugchocolate").style.opacity = "0";
+            document.getElementById("bugchocolate").style.filter  = 'alpha(opacity=0)';
+            
         } else if (ii === 2) {
             
             document.getElementById("lilac").style.opacity = "1";
@@ -279,6 +347,40 @@ function tutorial() {
             document.getElementById("chocolate").style.opacity = "0";
             document.getElementById("chocolate").style.filter  = 'alpha(opacity=0)';
             
+            if (i[0] != i[1]) {
+                
+                document.getElementById("droplilac").style.opacity = "1";
+                document.getElementById("droplilac").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropblue").style.opacity = "1";
+                document.getElementById("dropblue").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropgreen").style.opacity = "1";
+                document.getElementById("dropgreen").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropyellow").style.opacity = "0";
+                document.getElementById("dropyellow").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("droporange").style.opacity = "0";
+                document.getElementById("droporange").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("dropred").style.opacity = "0";
+                document.getElementById("dropred").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("dropchocolate").style.opacity = "0";
+                document.getElementById("dropchocolate").style.filter  = 'alpha(opacity=0)';
+                
+            };
+            
+            document.getElementById("buglilac").style.opacity = "1";
+            document.getElementById("buglilac").style.filter  = 'alpha(opacity=100)';            
+            document.getElementById("bugblue").style.opacity = "1";
+            document.getElementById("bugblue").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("buggreen").style.opacity = "1";
+            document.getElementById("buggreen").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("bugyellow").style.opacity = "0";
+            document.getElementById("bugyellow").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("bugorange").style.opacity = "0";
+            document.getElementById("bugorange").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("bugred").style.opacity = "0";
+            document.getElementById("bugred").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("bugchocolate").style.opacity = "0";
+            document.getElementById("bugchocolate").style.filter  = 'alpha(opacity=0)';
+            
         } else if (ii === 3) {
             
             document.getElementById("lilac").style.opacity = "1";
@@ -295,6 +397,40 @@ function tutorial() {
             document.getElementById("red").style.filter  = 'alpha(opacity=0)';
             document.getElementById("chocolate").style.opacity = "0";
             document.getElementById("chocolate").style.filter  = 'alpha(opacity=0)';
+            
+            if (i[0] != i[1]) {
+                
+                document.getElementById("droplilac").style.opacity = "1";
+                document.getElementById("droplilac").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropblue").style.opacity = "1";
+                document.getElementById("dropblue").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropgreen").style.opacity = "1";
+                document.getElementById("dropgreen").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropyellow").style.opacity = "1";
+                document.getElementById("dropyellow").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("droporange").style.opacity = "0";
+                document.getElementById("droporange").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("dropred").style.opacity = "0";
+                document.getElementById("dropred").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("dropchocolate").style.opacity = "0";
+                document.getElementById("dropchocolate").style.filter  = 'alpha(opacity=0)';
+                
+            };
+            
+            document.getElementById("buglilac").style.opacity = "1";
+            document.getElementById("buglilac").style.filter  = 'alpha(opacity=100)';            
+            document.getElementById("bugblue").style.opacity = "1";
+            document.getElementById("bugblue").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("buggreen").style.opacity = "1";
+            document.getElementById("buggreen").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("bugyellow").style.opacity = "1";
+            document.getElementById("bugyellow").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("bugorange").style.opacity = "0";
+            document.getElementById("bugorange").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("bugred").style.opacity = "0";
+            document.getElementById("bugred").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("bugchocolate").style.opacity = "0";
+            document.getElementById("bugchocolate").style.filter  = 'alpha(opacity=0)';
 
         } else if (ii === 4) {
 
@@ -312,6 +448,40 @@ function tutorial() {
             document.getElementById("red").style.filter  = 'alpha(opacity=0)';
             document.getElementById("chocolate").style.opacity = "0";
             document.getElementById("chocolate").style.filter  = 'alpha(opacity=0)';
+            
+            if (i[0] != i[1]) {
+                
+                document.getElementById("droplilac").style.opacity = "1";
+                document.getElementById("droplilac").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropblue").style.opacity = "1";
+                document.getElementById("dropblue").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropgreen").style.opacity = "1";
+                document.getElementById("dropgreen").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropyellow").style.opacity = "1";
+                document.getElementById("dropyellow").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("droporange").style.opacity = "1";
+                document.getElementById("droporange").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropred").style.opacity = "0";
+                document.getElementById("dropred").style.filter  = 'alpha(opacity=0)';
+                document.getElementById("dropchocolate").style.opacity = "0";
+                document.getElementById("dropchocolate").style.filter  = 'alpha(opacity=0)';
+                
+            };
+            
+            document.getElementById("buglilac").style.opacity = "1";
+            document.getElementById("buglilac").style.filter  = 'alpha(opacity=100)';            
+            document.getElementById("bugblue").style.opacity = "1";
+            document.getElementById("bugblue").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("buggreen").style.opacity = "1";
+            document.getElementById("buggreen").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("bugyellow").style.opacity = "1";
+            document.getElementById("bugyellow").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("bugorange").style.opacity = "1";
+            document.getElementById("bugorange").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("bugred").style.opacity = "0";
+            document.getElementById("bugred").style.filter  = 'alpha(opacity=0)';
+            document.getElementById("bugchocolate").style.opacity = "0";
+            document.getElementById("bugchocolate").style.filter  = 'alpha(opacity=0)';
 
         } else if (ii === 5) {
 
@@ -330,6 +500,40 @@ function tutorial() {
             document.getElementById("chocolate").style.opacity = "0";
             document.getElementById("chocolate").style.filter  = 'alpha(opacity=0)';
             
+            if (i[0] != i[1]) {
+                
+                document.getElementById("droplilac").style.opacity = "1";
+                document.getElementById("droplilac").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropblue").style.opacity = "1";
+                document.getElementById("dropblue").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropgreen").style.opacity = "1";
+                document.getElementById("dropgreen").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropyellow").style.opacity = "1";
+                document.getElementById("dropyellow").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("droporange").style.opacity = "1";
+                document.getElementById("droporange").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropred").style.opacity = "1";
+                document.getElementById("dropred").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropchocolate").style.opacity = "0";
+                document.getElementById("dropchocolate").style.filter  = 'alpha(opacity=0)';
+                
+            };
+            
+            document.getElementById("buglilac").style.opacity = "1";
+            document.getElementById("buglilac").style.filter  = 'alpha(opacity=100)';            
+            document.getElementById("bugblue").style.opacity = "1";
+            document.getElementById("bugblue").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("buggreen").style.opacity = "1";
+            document.getElementById("buggreen").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("bugyellow").style.opacity = "1";
+            document.getElementById("bugyellow").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("bugorange").style.opacity = "1";
+            document.getElementById("bugorange").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("bugred").style.opacity = "1";
+            document.getElementById("bugred").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("bugchocolate").style.opacity = "0";
+            document.getElementById("bugchocolate").style.filter  = 'alpha(opacity=0)';
+            
         } else if (ii === 6) {
 
             document.getElementById("lilac").style.opacity = "1";
@@ -346,6 +550,40 @@ function tutorial() {
             document.getElementById("red").style.filter  = 'alpha(opacity=100)';
             document.getElementById("chocolate").style.opacity = "1";
             document.getElementById("chocolate").style.filter  = 'alpha(opacity=100)';
+            
+            if (i[0] != i[1]) {
+                
+                document.getElementById("droplilac").style.opacity = "1";
+                document.getElementById("droplilac").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropblue").style.opacity = "1";
+                document.getElementById("dropblue").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropgreen").style.opacity = "1";
+                document.getElementById("dropgreen").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropyellow").style.opacity = "1";
+                document.getElementById("dropyellow").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("droporange").style.opacity = "1";
+                document.getElementById("droporange").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropred").style.opacity = "1";
+                document.getElementById("dropred").style.filter  = 'alpha(opacity=100)';
+                document.getElementById("dropchocolate").style.opacity = "100";
+                document.getElementById("dropchocolate").style.filter  = 'alpha(opacity=100)';
+                
+            };
+            
+            document.getElementById("buglilac").style.opacity = "1";
+            document.getElementById("buglilac").style.filter  = 'alpha(opacity=100)';            
+            document.getElementById("bugblue").style.opacity = "1";
+            document.getElementById("bugblue").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("buggreen").style.opacity = "1";
+            document.getElementById("buggreen").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("bugyellow").style.opacity = "1";
+            document.getElementById("bugyellow").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("bugorange").style.opacity = "1";
+            document.getElementById("bugorange").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("bugred").style.opacity = "1";
+            document.getElementById("bugred").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("bugchocolate").style.opacity = "1";
+            document.getElementById("bugchocolate").style.filter  = 'alpha(opacity=100)';
             
             document.getElementById("reward").style.opacity = "1";
             document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
