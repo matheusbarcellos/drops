@@ -242,27 +242,6 @@ function hint(type) {
             
         };
         
-        document.getElementById("droplilac").style.opacity = "1";
-        document.getElementById("droplilac").style.filter  = 'alpha(opacity=100)';
-
-        document.getElementById("dropblue").style.opacity = "1";
-        document.getElementById("dropblue").style.filter  = 'alpha(opacity=100)';
-
-        document.getElementById("dropgreen").style.opacity = "1";
-        document.getElementById("dropgreen").style.filter  = 'alpha(opacity=100)';
-
-        document.getElementById("dropyellow").style.opacity = "1";
-        document.getElementById("dropyellow").style.filter  = 'alpha(opacity=100)';
-
-        document.getElementById("droporange").style.opacity = "1";
-        document.getElementById("droporange").style.filter  = 'alpha(opacity=100)';
-
-        document.getElementById("dropred").style.opacity = "1";
-        document.getElementById("dropred").style.filter  = 'alpha(opacity=100)';
-
-        document.getElementById("dropchocolate").style.opacity = "1";
-        document.getElementById("dropchocolate").style.filter  = 'alpha(opacity=100)';
-        
     };
     
 };
