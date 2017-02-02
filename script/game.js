@@ -38,8 +38,17 @@ function uitutorial() {
 
     if (score === 0) {
 
-        document.getElementById("reward").style.opacity = "0";
-        document.getElementById("reward").style.filter  = 'alpha(opacity=0)';  
+        if (ii === 6) {
+            
+            document.getElementById("reward").style.opacity = "1";
+            document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
+            
+        } else {
+            
+            document.getElementById("reward").style.opacity = "0";
+            document.getElementById("reward").style.filter  = 'alpha(opacity=0)';  
+            
+        }; 
 
     } else if (score === 1) {
 
@@ -127,12 +136,8 @@ function uishowcolors() {
             document.getElementById("blue").style.opacity = "1";
             document.getElementById("blue").style.filter  = 'alpha(opacity=100)';
 
-            if (i[0] != i[1]) {
-
-                document.getElementById("dropblue").style.opacity = "1";
-                document.getElementById("dropblue").style.filter  = 'alpha(opacity=100)'
-
-            };
+            document.getElementById("dropblue").style.opacity = "1";
+            document.getElementById("dropblue").style.filter  = 'alpha(opacity=100)';
 
             document.getElementById("bugblue").style.opacity = "1";
             document.getElementById("bugblue").style.filter  = 'alpha(opacity=100)';
@@ -144,12 +149,8 @@ function uishowcolors() {
             document.getElementById("green").style.opacity = "1";
             document.getElementById("green").style.filter  = 'alpha(opacity=100)';
 
-            if (i[0] != i[1]) {
-
-                document.getElementById("dropgreen").style.opacity = "1";
-                document.getElementById("dropgreen").style.filter  = 'alpha(opacity=100)';
-
-            };
+            document.getElementById("dropgreen").style.opacity = "1";
+            document.getElementById("dropgreen").style.filter  = 'alpha(opacity=100)';
 
             document.getElementById("buggreen").style.opacity = "1";
             document.getElementById("buggreen").style.filter  = 'alpha(opacity=100)';
@@ -161,12 +162,8 @@ function uishowcolors() {
             document.getElementById("yellow").style.opacity = "1";
             document.getElementById("yellow").style.filter  = 'alpha(opacity=100)';
 
-            if (i[0] != i[1]) {
-
-                document.getElementById("dropyellow").style.opacity = "1";
-                document.getElementById("dropyellow").style.filter  = 'alpha(opacity=100)';
-
-            };
+            document.getElementById("dropyellow").style.opacity = "1";
+            document.getElementById("dropyellow").style.filter  = 'alpha(opacity=100)';
 
             document.getElementById("bugyellow").style.opacity = "1";
             document.getElementById("bugyellow").style.filter  = 'alpha(opacity=100)';
@@ -178,12 +175,8 @@ function uishowcolors() {
             document.getElementById("orange").style.opacity = "1";
             document.getElementById("orange").style.filter  = 'alpha(opacity=100)';
 
-            if (i[0] != i[1]) {
-
-                document.getElementById("droporange").style.opacity = "1";
-                document.getElementById("droporange").style.filter  = 'alpha(opacity=100)';
-
-            };
+            document.getElementById("droporange").style.opacity = "1";
+            document.getElementById("droporange").style.filter  = 'alpha(opacity=100)';
 
             document.getElementById("bugorange").style.opacity = "1";
             document.getElementById("bugorange").style.filter  = 'alpha(opacity=100)';
@@ -195,12 +188,8 @@ function uishowcolors() {
             document.getElementById("red").style.opacity = "1";
             document.getElementById("red").style.filter  = 'alpha(opacity=100)';
 
-            if (i[0] != i[1]) {
-
-                document.getElementById("dropred").style.opacity = "1";
-                document.getElementById("dropred").style.filter  = 'alpha(opacity=100)';
-
-            };
+            document.getElementById("dropred").style.opacity = "1";
+            document.getElementById("dropred").style.filter  = 'alpha(opacity=100)';
 
             document.getElementById("bugred").style.opacity = "1";
             document.getElementById("bugred").style.filter  = 'alpha(opacity=100)';
@@ -212,12 +201,8 @@ function uishowcolors() {
             document.getElementById("chocolate").style.opacity = "1";
             document.getElementById("chocolate").style.filter  = 'alpha(opacity=100)';
 
-            if (i[0] != i[1]) {
-
-                document.getElementById("dropchocolate").style.opacity = "1";
-                document.getElementById("dropchocolate").style.filter  = 'alpha(opacity=100)';
-
-            };
+            document.getElementById("dropchocolate").style.opacity = "1";
+            document.getElementById("dropchocolate").style.filter  = 'alpha(opacity=100)';
 
             document.getElementById("bugchocolate").style.opacity = "1";
             document.getElementById("bugchocolate").style.filter  = 'alpha(opacity=100)';
