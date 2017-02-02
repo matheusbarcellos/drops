@@ -461,9 +461,9 @@ function uisetcolor(value) {
 
 function checkcolor(reset) {
     
-  if (i[0] === i[1]) {
-      
     currentcolorvisible = false;
+    
+  if (i[0] === i[1]) {
     
     if (ii > reset) {
         
