@@ -229,7 +229,7 @@ function uichangecolor(reset) {
     
     if (ii === 0) {
         
-        if ((score <= 1) || (scorerecord <= 1)) {
+        if ((score <= 1) && (scorerecord <= 1)) {
             
             uitutorial();
         
@@ -258,7 +258,7 @@ function uichangecolor(reset) {
         
     } else if (ii === 1) {
         
-        if ((score <= 1) || (scorerecord <= 1)) {
+        if ((score <= 1) && (scorerecord <= 1)) {
             
             uitutorial();
         
@@ -291,7 +291,7 @@ function uichangecolor(reset) {
         
     } else if (ii === 2) {
         
-        if ((score <= 1) || (scorerecord <= 1)) {
+        if ((score <= 1) && (scorerecord <= 1)) {
             
             uitutorial();
         
@@ -313,7 +313,7 @@ function uichangecolor(reset) {
         
     } else if (ii === 3) {
         
-        if ((score <= 1) || (scorerecord <= 1)) {
+        if ((score <= 1) && (scorerecord <= 1)) {
             
             uitutorial();
         
@@ -335,7 +335,7 @@ function uichangecolor(reset) {
         
     } else if (ii === 4) {
         
-        if ((score <= 1) || (scorerecord <= 1)) {
+        if ((score <= 1) && (scorerecord <= 1)) {
             
             uitutorial();
         
@@ -357,7 +357,7 @@ function uichangecolor(reset) {
         
     } else if (ii === 5) {
         
-        if ((score <= 1) || (scorerecord <= 1)) {
+        if ((score <= 1) && (scorerecord <= 1)) {
             
             uitutorial();
         
@@ -379,7 +379,7 @@ function uichangecolor(reset) {
         
     } else if (ii === 6) {
         
-        if ((score <= 1) || (scorerecord <= 1)) {
+        if ((score <= 1) && (scorerecord <= 1)) {
             
             uitutorial();
         
