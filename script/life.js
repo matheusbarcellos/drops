@@ -85,9 +85,9 @@ function showlives() {
     document.getElementById("control").style.opacity = "0.25";
     document.getElementById("control").style.filter  = 'alpha(opacity=25)';
     
-    if (scorerecord <= 1) {
+    if ((score <= 1) || (scorerecord <= 1)) {
             
-        tutorial();
+        uitutorial();
 
     } else {
     
@@ -198,9 +198,9 @@ function hidelives() {
     document.getElementById("control").style.opacity = "1";
     document.getElementById("control").style.filter  = 'alpha(opacity=100)';
     
-    if (scorerecord <= 1) {
+    if ((score <= 1) || (scorerecord <= 1)) {
             
-        tutorial();
+        uitutorial();
 
     } else {
     
