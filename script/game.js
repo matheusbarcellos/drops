@@ -15,6 +15,8 @@ var ismobile = false;
 var timerinterstitial = null;
 //var iOS = false;
 var currentcolorvisible = false;
+var vertical = false;
+var horizontal = false;
 
 var admobid = {
       interstitial: 'xxxxxxxxx'
