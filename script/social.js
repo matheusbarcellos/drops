@@ -54,18 +54,20 @@ function retrievescorerecord () {
             while (iscore < friendCache.scores.length) {
                 if (friendCache.scores[iscore].user.id===friendCache.me.id) {
                     
-                    /*
-                    if (localStorage.scorerecord) {
+                    
+                    /*if (localStorage.scorerecord) {
 
-                        if (friendCache.scores[iscore].score < Number(localStorage.scorerecord)) {
+                        if ((friendCache.scores[iscore].score < 2) && (friendCache.scores[iscore].score < Number(localStorage.scorerecord))) {
 
                             scorerecord = Number(localStorage.scorerecord);
                             sendScore(scorerecord, function(){});
+                            document.getElementById("scorerecord").innerHTML = scorerecord;
 
                         } else {
 
                             scorerecord = friendCache.scores[iscore].score;
                             localStorage.scorerecord = String(scorerecord);
+                            document.getElementById("scorerecord").innerHTML = scorerecord;
 
                         }
 
@@ -73,9 +75,10 @@ function retrievescorerecord () {
 
                         scorerecord = friendCache.scores[iscore].score;
                         localStorage.scorerecord = String(scorerecord);
+                        document.getElementById("scorerecord").innerHTML = scorerecord;
 
-                    }
-                    */
+                    };*/
+                    
                     
                     scorerecord = friendCache.scores[iscore].score;
                     localStorage.scorerecord = String(scorerecord);

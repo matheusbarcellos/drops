@@ -81,6 +81,60 @@ function playaudio(index) {
     
 };
 
+function onemorecolor() {
+
+    if (android === false) {
+
+        playaudio(0);
+
+    } else {
+
+        playaudioPhoneGap(0);
+
+    };
+    
+    if (ii === 0) {
+
+        document.getElementById("flash").style.display = "inline";
+        document.getElementById("flash").className = "activelilac";
+        timergordon();  
+
+    } else if (ii === 1) {
+
+        document.getElementById("flash").style.display = "inline";
+        document.getElementById("flash").className = "activeblue";
+        timergordon();  
+
+    } else if (ii === 2) {
+
+        document.getElementById("flash").style.display = "inline";
+        document.getElementById("flash").className = "activegreen";
+        timergordon();  
+
+    } else if (ii === 3) {
+
+        document.getElementById("flash").style.display = "inline";
+        document.getElementById("flash").className = "activeyellow";
+        timergordon();  
+
+    } else if (ii === 4) {
+
+        document.getElementById("flash").style.display = "inline";
+        document.getElementById("flash").className = "activeorange";
+        timergordon();  
+
+    } else if (ii === 5) {
+
+        document.getElementById("flash").style.display = "inline";
+        document.getElementById("flash").className = "activered";
+        timergordon();  
+
+    };
+    
+    ii++;
+    
+};
+
 function goodjob() {
     
     if (android === false) {

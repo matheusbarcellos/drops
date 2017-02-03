@@ -233,6 +233,17 @@ function uichangecolor(reset) {
             
             uitutorial();
         
+        } else {
+            
+            document.getElementById("profile").style.opacity = "1";
+            document.getElementById("profile").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("reward").style.opacity = "1";
+            document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
+            document.getElementById("spread").style.opacity = "1";
+            document.getElementById("spread").style.filter  = 'alpha(opacity=100)'; 
+            document.getElementById("leaderboard").style.opacity = "1";
+            document.getElementById("leaderboard").style.filter  = 'alpha(opacity=100)';
+            
         };
         
         uishowcolors();
@@ -465,16 +476,7 @@ function checkcolor(reset) {
         
     } else {
         
-        ii++;
-        if (android === false) {
-
-            playaudio(0);
-
-        } else {
-
-            playaudioPhoneGap(0);
-
-        };
+        onemorecolor();
         
     };    
       
@@ -766,9 +768,11 @@ function clickdelay() {
 
 function orientationhandler(index) {
   
-    
+    if (vertical === false) {
         
         if (index === 0) {
+
+            horizontal = false;
 
             // Profile
             document.getElementById("pic").className = "verticalprofilepic";
@@ -962,7 +966,17 @@ function orientationhandler(index) {
                 */
             };
 
-        } else if (index === 1) {
+            vertical = true;
+
+        };
+        
+    };
+    
+    if (horizontal = false) {
+        
+        vertical = false;
+        
+        if (index === 1) {
 
             // Profile
             document.getElementById("pic").className = "profilepic";
@@ -1236,5 +1250,9 @@ function orientationhandler(index) {
             };
 
         };  
+        
+        horizontal = true;
+        
+    };
     
 };

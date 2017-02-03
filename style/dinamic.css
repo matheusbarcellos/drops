@@ -560,6 +560,685 @@
     
 }
 
+
+@-webkit-keyframes flashlilac {
+    
+    0% {
+        
+        background-color: #C9B4E3;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #C9B4E3;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@-moz-keyframes flashlilac {
+    
+    0% {
+        
+        background-color: #C9B4E3;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #C9B4E3;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@-o-keyframes flashlilac {
+    
+    0% {
+        
+        background-color: #C9B4E3;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #C9B4E3;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@keyframes flashlilac {
+    
+    0% {
+        
+        background-color: #C9B4E3;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #C9B4E3;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+    
+.activelilac {
+    
+    -webkit-animation-name: flashlilac;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: flashlilac;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: flashlilac;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: flashlilac;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+
+@-webkit-keyframes flashblue {
+    
+    0% {
+        
+        background-color: #B1EBF7;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #B1EBF7;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@-moz-keyframes flashblue {
+    
+    0% {
+        
+        background-color: #B1EBF7;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #B1EBF7;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@-o-keyframes flashblue {
+    
+    0% {
+        
+        background-color: #B1EBF7;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #B1EBF7;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@keyframes flashblue {
+    
+    0% {
+        
+        background-color: #B1EBF7;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #B1EBF7;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+    
+.activeblue {
+    
+    -webkit-animation-name: flashblue;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: flashblue;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: flashblue;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: flashblue;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+
+@-webkit-keyframes flashgreen {
+    
+    0% {
+        
+        background-color: #BEFF95;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #BEFF95;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@-moz-keyframes flashgreen {
+    
+    0% {
+        
+        background-color: #BEFF95;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #BEFF95;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@-o-keyframes flashgreen {
+    
+    0% {
+        
+        background-color: #BEFF95;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #BEFF95;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@keyframes flashgreen {
+    
+    0% {
+        
+        background-color: #BEFF95;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #BEFF95;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+    
+.activegreen {
+    
+    -webkit-animation-name: flashgreen;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: flashgreen;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: flashgreen;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: flashgreen;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+
+@-webkit-keyframes flashyellow {
+    
+    0% {
+        
+        background-color: #FEFF99;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #FEFF99;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@-moz-keyframes flashyellow {
+    
+    0% {
+        
+        background-color: #FEFF99;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #FEFF99;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@-o-keyframes flashyellow {
+    
+    0% {
+        
+        background-color: #FEFF99;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #FEFF99;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@keyframes flashyellow {
+    
+    0% {
+        
+        background-color: #FEFF99;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #FEFF99;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+    
+.activeyellow {
+    
+    -webkit-animation-name: flashyellow;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: flashyellow;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: flashyellow;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: flashyellow;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+
+@-webkit-keyframes flashorange {
+    
+    0% {
+        
+        background-color: #FFCC8E;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #FFCC8E;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@-moz-keyframes flashorange {
+    
+    0% {
+        
+        background-color: #FFCC8E;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #FFCC8E;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@-o-keyframes flashorange {
+    
+    0% {
+        
+        background-color: #FFCC8E;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #FFCC8E;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@keyframes flashorange {
+    
+    0% {
+        
+        background-color: #FFCC8E;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #FFCC8E;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+    
+.activeorange {
+    
+    -webkit-animation-name: flashorange;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: flashorange;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: flashorange;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: flashorange;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+
+@-webkit-keyframes flashred {
+    
+    0% {
+        
+        background-color: #FD8181;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #FD8181;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@-moz-keyframes flashred {
+    
+    0% {
+        
+        background-color: #FD8181;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #FD8181;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@-o-keyframes flashred {
+    
+    0% {
+        
+        background-color: #FD8181;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #FD8181;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@keyframes flashred {
+    
+    0% {
+        
+        background-color: #FD8181;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #FD8181;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+    
+.activered {
+    
+    -webkit-animation-name: flashred;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: flashred;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: flashred;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: flashred;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+
 #loading {
     
     display: "inline";
@@ -588,7 +1267,6 @@
     transform: translate(-50%, -50%);
     
 }
-
 
 .profilepic {
     
@@ -668,8 +1346,6 @@
     z-index: 3;
     
 }
-
-
 
 #gameovertext {
     
@@ -877,6 +1553,7 @@
     display: none;
     
 }
+
 #three {
         
     display: inline;
