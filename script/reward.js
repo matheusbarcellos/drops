@@ -93,45 +93,43 @@ function onemorecolor() {
 
     };
     
-    if (ii === 0) {
-
-        document.getElementById("flash").style.display = "inline";
-        document.getElementById("flash").className = "activelilac";
-        timergordon();  
-
-    } else if (ii === 1) {
+    if ((ii - 1) === 0) {
 
         document.getElementById("flash").style.display = "inline";
         document.getElementById("flash").className = "activeblue";
         timergordon();  
 
-    } else if (ii === 2) {
+    } else if ((ii - 1) === 1) {
 
         document.getElementById("flash").style.display = "inline";
         document.getElementById("flash").className = "activegreen";
         timergordon();  
 
-    } else if (ii === 3) {
+    } else if ((ii - 1) === 2) {
 
         document.getElementById("flash").style.display = "inline";
         document.getElementById("flash").className = "activeyellow";
         timergordon();  
 
-    } else if (ii === 4) {
+    } else if ((ii - 1) === 3) {
 
         document.getElementById("flash").style.display = "inline";
         document.getElementById("flash").className = "activeorange";
         timergordon();  
 
-    } else if (ii === 5) {
+    } else if ((ii - 1) === 4) {
 
         document.getElementById("flash").style.display = "inline";
         document.getElementById("flash").className = "activered";
         timergordon();  
 
+    } else if ((ii - 1) === 5) {
+
+        document.getElementById("flash").style.display = "inline";
+        document.getElementById("flash").className = "activechocolate";
+        timergordon();  
+
     };
-    
-    ii++;
     
 };
 
@@ -173,6 +171,7 @@ function goodjob() {
     timergameover(1);
     
     score++;
+    speedup();
     document.getElementById("score").innerHTML = score;
     document.getElementById("flash").style.display = "inline";
     document.getElementById("flash").className = "active";
@@ -276,9 +275,7 @@ function timergameover(index) {
         if (index === 0) {
             
             score = 0;
-            speed = 500;
-            clearInterval(timer);
-            timerchangecolor();
+            speedup();
             
         };
         

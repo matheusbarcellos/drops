@@ -15,8 +15,8 @@ var ismobile = false;
 var timerinterstitial = null;
 //var iOS = false;
 var currentcolorvisible = false;
-var vertical = false;
-var horizontal = false;
+var portraitloaded = false;
+var landscapeloaded = false;
 
 var admobid = {
       interstitial: 'xxxxxxxxx'
@@ -467,7 +467,6 @@ function checkcolor(reset) {
         
         ii = 0;
         goodjob();
-        speedup();
         document.getElementById("buglilac").style.display = "inline";
         document.getElementById("bugblue").style.display = "inline";
         document.getElementById("buggreen").style.display = "inline";
@@ -478,6 +477,7 @@ function checkcolor(reset) {
         
     } else {
         
+        ii++;
         onemorecolor();
         
     };    
@@ -535,13 +535,13 @@ function speedup() {
         clearInterval(timer);
         timerchangecolor();
 
-    } else if (speed === 500) {
+    } else if (score === 1) {
       
         speed = 400;
         clearInterval(timer);
         timerchangecolor();
       
-    } else if (speed === 400) {
+    } else if (score === 2) {
 
         speed = 300;
         clearInterval(timer);
@@ -563,7 +563,7 @@ function speedup() {
 
         };*/
 
-    } else if (speed === 300) {
+    } else if (score === 3) {
 
         speed = 250;
         clearInterval(timer);
@@ -661,13 +661,27 @@ var loop = function() {
     
     if ((window.innerWidth) < (window.innerHeight)) {
         
-        orientationhandler(0);
+        landscapeloaded = false;
+        
+        if (portraitloaded === false) {
+            
+            orientationhandler(0);
+            portraitloaded = true;
+            
+        };
         
     } else {
         
-        orientationhandler(1);
+        portraitloaded = false;
         
-        if ((loggedin === 1) && (loginscores === true)) {
+        if (landscapeloaded === false) {
+            
+            orientationhandler(1);
+            landscapeloaded = true;
+            
+        };
+        
+        if (loggedin === 1) {
         
            renderScores();
 

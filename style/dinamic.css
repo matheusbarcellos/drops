@@ -561,119 +561,6 @@
 }
 
 
-@-webkit-keyframes flashlilac {
-    
-    0% {
-        
-        background-color: #C9B4E3;
-        opacity: 1;
-          
-    }
-    
-    70% {
-        
-        background-color: #C9B4E3;
-        
-    }
-    
-    100% {
-        
-        background-color: transparent;
-        
-    }
-}
-
-@-moz-keyframes flashlilac {
-    
-    0% {
-        
-        background-color: #C9B4E3;
-        opacity: 1;
-          
-    }
-    
-    70% {
-        
-        background-color: #C9B4E3;
-        
-    }
-    
-    100% {
-        
-        background-color: transparent;
-        
-    }
-}
-
-@-o-keyframes flashlilac {
-    
-    0% {
-        
-        background-color: #C9B4E3;
-        opacity: 1;
-          
-    }
-    
-    70% {
-        
-        background-color: #C9B4E3;
-        
-    }
-    
-    100% {
-        
-        background-color: transparent;
-        
-    }
-}
-
-@keyframes flashlilac {
-    
-    0% {
-        
-        background-color: #C9B4E3;
-        opacity: 1;
-          
-    }
-    
-    70% {
-        
-        background-color: #C9B4E3;
-        
-    }
-    
-    100% {
-        
-        background-color: transparent;
-        
-    }
-}
-    
-.activelilac {
-    
-    -webkit-animation-name: flashlilac;
-    -webkit-animation-duration: 500ms;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-timing-function: linear;
-    
-    -moz-animation-name: flashlilac;
-    -moz-animation-duration: 500ms;
-    -moz-animation-iteration-count: 1;
-    -moz-animation-timing-function: linear;
-    
-    -o-animation-name: flashlilac;
-    -o-animation-duration: 500ms;
-    -o-animation-iteration-count: 1;
-    -o-animation-timing-function: linear;
-    
-    animation-name: flashlilac;
-    animation-duration: 500ms;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    
-}
-
-
 @-webkit-keyframes flashblue {
     
     0% {
@@ -1232,6 +1119,119 @@
     -o-animation-timing-function: linear;
     
     animation-name: flashred;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+
+
+@-webkit-keyframes flashchocolate {
+    
+    0% {
+        
+        background-color: #8D563E;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #8D563E;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@-moz-keyframes flashchocolate {
+    
+    0% {
+        
+        background-color: #8D563E;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #8D563E;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@-o-keyframes flashchocolate {
+    
+    0% {
+        
+        background-color: #8D563E;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #8D563E;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+
+@keyframes flashchocolate {
+    
+    0% {
+        
+        background-color: #8D563E;
+        opacity: 1;
+          
+    }
+    
+    70% {
+        
+        background-color: #8D563E;
+        
+    }
+    
+    100% {
+        
+        background-color: transparent;
+        
+    }
+}
+    
+.activechocolate {
+    
+    -webkit-animation-name: flashchocolate;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: flashchocolate;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    
+    -o-animation-name: flashchocolate;
+    -o-animation-duration: 500ms;
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+    
+    animation-name: flashchocolate;
     animation-duration: 500ms;
     animation-iteration-count: 1;
     animation-timing-function: linear;
