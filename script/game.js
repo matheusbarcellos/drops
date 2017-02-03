@@ -772,9 +772,9 @@ function orientationhandler(index) {
   
     if (index === 0) {
         
-        horizontal = false;
+        //horizontal = false;
         
-        if (vertical === false) {
+        //if (vertical === false) {
 
             // Profile
             document.getElementById("pic").className = "verticalprofilepic";
@@ -968,17 +968,15 @@ function orientationhandler(index) {
                 */
             };
 
-            vertical = true;
+            //vertical = true;
 
-        };
+        //};
         
-    };
-    
-    if (index === 1) {
+    } else if (index === 1) {
         
-        vertical = false;
+        //vertical = false;
         
-        if (horizontal = false) {
+        //if (horizontal = false) {
 
             // Profile
             document.getElementById("pic").className = "profilepic";
@@ -1253,8 +1251,8 @@ function orientationhandler(index) {
 
         };  
         
-        horizontal = true;
+        //horizontal = true;
         
-    };
+    //};
     
 };
