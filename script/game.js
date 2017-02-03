@@ -770,11 +770,11 @@ function clickdelay() {
 
 function orientationhandler(index) {
   
-    if (vertical === false) {
+    if (index === 0) {
         
-        if (index === 0) {
-
-            horizontal = false;
+        horizontal = false;
+        
+        if (vertical === false) {
 
             // Profile
             document.getElementById("pic").className = "verticalprofilepic";
@@ -974,11 +974,11 @@ function orientationhandler(index) {
         
     };
     
-    if (horizontal = false) {
+    if (index === 1) {
         
         vertical = false;
         
-        if (index === 1) {
+        if (horizontal = false) {
 
             // Profile
             document.getElementById("pic").className = "profilepic";
