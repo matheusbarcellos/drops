@@ -298,7 +298,7 @@ body {
     height: auto;
     position: absolute;
     top: 44.31069444444444%;
-    z-index: 3;
+    z-index: 4;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -314,7 +314,7 @@ body {
     height: auto;
     position: absolute;
     top: 50%;
-    z-index: 3;
+    z-index: 4;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -331,7 +331,7 @@ body {
     height: auto;
     position: absolute;
     left: 50%;
-    z-index: 3;
+    z-index: 4;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);

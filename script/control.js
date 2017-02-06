@@ -30,9 +30,39 @@ function clickhandler(index) {
         
     };
     
+    if (ii === 0) {
+            
+        document.getElementById("buttonlilac").style.display = "none";
+
+    } else if (ii === 1) {
+
+        document.getElementById("buttonblue").style.display = "none";
+
+    } else if (ii === 2) {
+
+        document.getElementById("buttongreen").style.display = "none";
+
+    } else if (ii === 3) {
+
+        document.getElementById("buttonyellow").style.display = "none";
+
+    } else if (ii === 4) {
+
+        document.getElementById("buttonorange").style.display = "none";
+
+    } else if (ii === 5) {
+
+        document.getElementById("buttonred").style.display = "none";
+
+    } else if (ii === 6) {
+
+        document.getElementById("buttonchocolate").style.display = "none";
+
+    };
+    
     if (index === 0) {
         
-        document.getElementById("buttonlilac").style.display = "none";
+        document.getElementById("buttonlilacdrop").style.display = "none";
         checkcolor(5);
         timercontrol = setTimeout(function(){
 
@@ -43,7 +73,7 @@ function clickhandler(index) {
         
     } else if (index === 1) {
         
-        document.getElementById("buttonblue").style.display = "none";
+        document.getElementById("buttonbluedrop").style.display = "none";
         checkcolor(5);
         timercontrol = setTimeout(function(){
 
@@ -54,7 +84,7 @@ function clickhandler(index) {
         
     } else if (index === 2) {
         
-        document.getElementById("buttongreen").style.display = "none";
+        document.getElementById("buttongreendrop").style.display = "none";
         checkcolor(5);
         timercontrol = setTimeout(function(){
 
@@ -65,7 +95,7 @@ function clickhandler(index) {
         
     } else if (index === 3) {
         
-        document.getElementById("buttonyellow").style.display = "none";
+        document.getElementById("buttonyellowdrop").style.display = "none";
         checkcolor(5);
         timercontrol = setTimeout(function(){
 
@@ -76,7 +106,7 @@ function clickhandler(index) {
         
     } else if (index === 4) {
         
-        document.getElementById("buttonorange").style.display = "none";
+        document.getElementById("buttonorangedrop").style.display = "none";
         checkcolor(5);
         timercontrol = setTimeout(function(){
 
@@ -87,7 +117,7 @@ function clickhandler(index) {
         
     } else if (index === 5) {
         
-        document.getElementById("buttonred").style.display = "none";
+        document.getElementById("buttonreddrop").style.display = "none";
         checkcolor(5);
         timercontrol = setTimeout(function(){
 
@@ -98,7 +128,7 @@ function clickhandler(index) {
         
     } else if (index === 6) {
         
-        document.getElementById("buttonchocolate").style.display = "none";
+        document.getElementById("buttonchocolatedrop").style.display = "none";
         checkcolor(5);
         timercontrol = setTimeout(function(){
 
@@ -118,10 +148,12 @@ function clickanimation(indexanimation) {
         if (indexanimation === 0) {
             
             document.getElementById("buttonlilac").style.display = "none";
+            document.getElementById("buttonlilacdrop").style.display = "none";
             
         } else if (indexanimation === 1) {
             
             document.getElementById("buttonlilac").style.display = "inline";
+            document.getElementById("buttonlilacdrop").style.display = "inline";
             
         };
         
@@ -129,11 +161,13 @@ function clickanimation(indexanimation) {
         
         if (indexanimation === 0) {
             
-            document.getElementById("buttonblue").style.display = "none";
+            document.getElementById("buttonlilac").style.display = "none";
+            document.getElementById("buttonbluedrop").style.display = "none";
             
         } else if (indexanimation === 1) {
             
-            document.getElementById("buttonblue").style.display = "inline";
+            document.getElementById("buttonlilac").style.display = "inline";
+            document.getElementById("buttonbluedrop").style.display = "inline";
             
         };
         
@@ -141,11 +175,13 @@ function clickanimation(indexanimation) {
         
         if (indexanimation === 0) {
             
-            document.getElementById("buttongreen").style.display = "none";
+            document.getElementById("buttonlilac").style.display = "none";
+            document.getElementById("buttongreendrop").style.display = "none";
             
         } else if (indexanimation === 1) {
             
-            document.getElementById("buttongreen").style.display = "inline";
+            document.getElementById("buttonlilac").style.display = "inline";
+            document.getElementById("buttongreendrop").style.display = "inline";
             
         };
         
@@ -153,11 +189,13 @@ function clickanimation(indexanimation) {
         
         if (indexanimation === 0) {
             
-            document.getElementById("buttonyellow").style.display = "none";
+            document.getElementById("buttonlilac").style.display = "none";
+            document.getElementById("buttonyellowdrop").style.display = "none";
             
         } else if (indexanimation === 1) {
             
-            document.getElementById("buttonyellow").style.display = "inline";
+            document.getElementById("buttonlilac").style.display = "inline";
+            document.getElementById("buttonyellowdrop").style.display = "inline";
             
         };
         
@@ -165,11 +203,13 @@ function clickanimation(indexanimation) {
         
         if (indexanimation === 0) {
             
-            document.getElementById("buttonorange").style.display = "none";
+            document.getElementById("buttonlilac").style.display = "none";
+            document.getElementById("buttonorangedrop").style.display = "none";
             
         } else if (indexanimation === 1) {
             
-            document.getElementById("buttonorange").style.display = "inline";
+            document.getElementById("buttonlilac").style.display = "inline";
+            document.getElementById("buttonorangedrop").style.display = "inline";
             
         };
         
@@ -177,11 +217,13 @@ function clickanimation(indexanimation) {
         
         if (indexanimation === 0) {
             
-            document.getElementById("buttonred").style.display = "none";
+            document.getElementById("buttonlilac").style.display = "none";
+            document.getElementById("buttonreddrop").style.display = "none";
             
         } else if (indexanimation === 1) {
             
-            document.getElementById("buttonred").style.display = "inline";
+            document.getElementById("buttonlilac").style.display = "inline";
+            document.getElementById("buttonreddrop").style.display = "inline";
             
         };
         
@@ -189,11 +231,13 @@ function clickanimation(indexanimation) {
         
         if (indexanimation === 0) {
             
-            document.getElementById("buttonchocolate").style.display = "none";
+            document.getElementById("buttonlilac").style.display = "none";
+            document.getElementById("buttonchocolatedrop").style.display = "none";
             
         } else if (indexanimation === 1) {
             
-            document.getElementById("buttonchocolate").style.display = "inline";
+            document.getElementById("buttonlilac").style.display = "inline";
+            document.getElementById("buttonchocolatedrop").style.display = "inline";
             
         };
         

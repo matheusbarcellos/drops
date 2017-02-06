@@ -38,7 +38,7 @@ function uitutorial() {
     document.getElementById("profile").style.opacity = "0";
     document.getElementById("profile").style.filter  = 'alpha(opacity=0)';
 
-    if (score === 0) {
+    if ((score === 0) && (scorerecord === 0)) {
 
         if (ii === 6) {
             
@@ -52,14 +52,9 @@ function uitutorial() {
             
         }; 
 
-    } else if (score === 1) {
+    } else if ((score === 1) || (scorerecord === 1)) {
 
-        if (ii === 0) {
-
-            document.getElementById("reward").style.opacity = "1";
-            document.getElementById("reward").style.filter  = 'alpha(opacity=100)';  
-
-        } else if (ii === 6) {
+        if (ii === 6) {
 
             document.getElementById("reward").style.opacity = "1";
             document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
@@ -130,7 +125,15 @@ function uishowcolors() {
             document.getElementById("bugred").style.filter  = 'alpha(opacity=0)';
             document.getElementById("bugchocolate").style.opacity = "0";
             document.getElementById("bugchocolate").style.filter  = 'alpha(opacity=0)';
-
+            
+            document.getElementById("buttonlilac").style.display = "inline";
+            document.getElementById("buttonblue").style.display = "none";
+            document.getElementById("buttongreen").style.display = "none";
+            document.getElementById("buttonyellow").style.display = "none";
+            document.getElementById("buttonorange").style.display = "none";
+            document.getElementById("buttonred").style.display = "none";
+            document.getElementById("buttonchocolate").style.display = "none";
+            
             currentcolorvisible = true;
 
         } else if (ii === 1) {
@@ -143,6 +146,9 @@ function uishowcolors() {
 
             document.getElementById("bugblue").style.opacity = "1";
             document.getElementById("bugblue").style.filter  = 'alpha(opacity=100)';
+            
+            document.getElementById("buttonlilac").style.display = "none";
+            document.getElementById("buttonblue").style.display = "inline";
 
             currentcolorvisible = true;
 
@@ -156,6 +162,9 @@ function uishowcolors() {
 
             document.getElementById("buggreen").style.opacity = "1";
             document.getElementById("buggreen").style.filter  = 'alpha(opacity=100)';
+            
+            document.getElementById("buttonblue").style.display = "none";
+            document.getElementById("buttongreen").style.display = "inline";
 
             currentcolorvisible = true;
 
@@ -169,6 +178,9 @@ function uishowcolors() {
 
             document.getElementById("bugyellow").style.opacity = "1";
             document.getElementById("bugyellow").style.filter  = 'alpha(opacity=100)';
+            
+            document.getElementById("buttongreen").style.display = "none";
+            document.getElementById("buttonyellow").style.display = "inline";
 
             currentcolorvisible = true;
 
@@ -182,6 +194,9 @@ function uishowcolors() {
 
             document.getElementById("bugorange").style.opacity = "1";
             document.getElementById("bugorange").style.filter  = 'alpha(opacity=100)';
+            
+            document.getElementById("buttonyellow").style.display = "none";
+            document.getElementById("buttonorange").style.display = "inline";
 
             currentcolorvisible = true;
 
@@ -195,6 +210,9 @@ function uishowcolors() {
 
             document.getElementById("bugred").style.opacity = "1";
             document.getElementById("bugred").style.filter  = 'alpha(opacity=100)';
+            
+            document.getElementById("buttonorange").style.display = "none";
+            document.getElementById("buttonred").style.display = "inline";
 
             currentcolorvisible = true;
 
@@ -208,6 +226,9 @@ function uishowcolors() {
 
             document.getElementById("bugchocolate").style.opacity = "1";
             document.getElementById("bugchocolate").style.filter  = 'alpha(opacity=100)';
+            
+            document.getElementById("buttonred").style.display = "none";
+            document.getElementById("buttonchocolate").style.display = "inline";
 
             currentcolorvisible = true;
 
@@ -427,31 +448,31 @@ function uisetcolor(value) {
     
     if (i[1] === 0) {
         
-        document.getElementById("buttonlilac").style.display = "inline";
+        document.getElementById("buttonlilacdrop").style.display = "inline";
         
     } else if (i[1] === 1) {
         
-        document.getElementById("buttonblue").style.display = "inline";
+        document.getElementById("buttonbluedrop").style.display = "inline";
         
     } else if (i[1] === 2) {
         
-        document.getElementById("buttongreen").style.display = "inline";
+        document.getElementById("buttongreendrop").style.display = "inline";
         
     } else if (i[1] === 3) {
         
-        document.getElementById("buttonyellow").style.display = "inline";
+        document.getElementById("buttonyellowdrop").style.display = "inline";
         
     } else if (i[1] === 4) {
         
-        document.getElementById("buttonorange").style.display = "inline";
+        document.getElementById("buttonorangedrop").style.display = "inline";
         
     } else if (i[1] === 5) {
         
-        document.getElementById("buttonred").style.display = "inline";
+        document.getElementById("buttonreddrop").style.display = "inline";
         
     } else if (i[1] === 6) {
         
-        document.getElementById("buttonchocolate").style.display = "inline";
+        document.getElementById("buttonchocolatedrop").style.display = "inline";
         
     };
     
@@ -778,7 +799,16 @@ function clickdelay() {
     document.getElementById("buttonorange").onclick = "";
     document.getElementById("buttonred").onclick = "";
     document.getElementById("buttonchocolate").onclick = "";
+    
     document.getElementById("buttondown").onclick = "";
+    
+    document.getElementById("buttonlilacdrop").onclick = "";
+    document.getElementById("buttonbluedrop").onclick = "";
+    document.getElementById("buttongreendrop").onclick = "";
+    document.getElementById("buttonyellowdrop").onclick = "";
+    document.getElementById("buttonorangedrop").onclick = "";
+    document.getElementById("buttonreddrop").onclick = "";
+    document.getElementById("buttonchocolatedrop").onclick = "";
     
 };
 
@@ -846,6 +876,14 @@ function orientationhandler(index) {
             
             document.getElementById("buttondown").style.width = "auto";
             document.getElementById("buttondown").style.maxWidth = "552";
+        
+            document.getElementById("buttonlilacdrop").className = "verticalbutton verticaldrop";
+            document.getElementById("buttonbluedrop").className = "verticalbutton verticaldrop";
+            document.getElementById("buttongreendrop").className = "verticalbutton verticaldrop";
+            document.getElementById("buttonyellowdrop").className = "verticalbutton verticaldrop";
+            document.getElementById("buttonorangedrop").className = "verticalbutton verticaldrop";
+            document.getElementById("buttonreddrop").className = "verticalbutton verticaldrop";
+            document.getElementById("buttonchocolatedrop").className = "verticalbutton verticaldrop";
             
             // Game Over
             document.getElementById("gameovertext").style.width = "51.42777777777778%";
@@ -1076,6 +1114,14 @@ function orientationhandler(index) {
 
                 document.getElementById("buttondown").className = "nofriendsbutton";
                 
+                document.getElementById("buttonlilacdrop").className = "nofriendsbutton nofriendsdrop";
+                document.getElementById("buttonbluedrop").className = "nofriendsbutton nofriendsdrop";
+                document.getElementById("buttongreendrop").className = "nofriendsbutton nofriendsdrop";
+                document.getElementById("buttonyellowdrop").className = "nofriendsbutton nofriendsdrop";
+                document.getElementById("buttonorangedrop").className = "nofriendsbutton nofriendsdrop";
+                document.getElementById("buttonreddrop").className = "nofriendsbutton nofriendsdrop";
+                document.getElementById("buttonchocolatedrop").className = "nofriendsbutton nofriendsdrop";
+
             } else {
               
                 document.getElementById("buttonlilac").className = "button buttonup";
@@ -1087,6 +1133,14 @@ function orientationhandler(index) {
                 document.getElementById("buttonchocolate").className = "button buttonup";
 
                 document.getElementById("buttondown").className = "button";
+                
+                document.getElementById("buttonlilacdrop").className = "button drop";
+                document.getElementById("buttonbluedrop").className = "button drop";
+                document.getElementById("buttongreendrop").className = "button drop";
+                document.getElementById("buttonyellowdrop").className = "button drop";
+                document.getElementById("buttonorangedrop").className = "button drop";
+                document.getElementById("buttonreddrop").className = "button drop";
+                document.getElementById("buttonchocolatedrop").className = "button drop";
                 
             };
             

@@ -133,6 +133,48 @@
     
 }
 
+#buttonlilacdrop {
+    
+    display: none;
+    
+}
+
+#buttonbluedrop {
+    
+    display: none;
+    
+}
+
+#buttongreendrop {
+    
+    display: none;
+    
+}
+
+#buttonyellowdrop {
+    
+    display: none;
+    
+}
+
+#buttonorangedrop {
+    
+    display: none;
+    
+}
+
+#buttonreddrop {
+    
+    display: none;
+    
+}
+
+#buttonchocolatedrop {
+    
+    display: none;
+    
+}
+
 .drop {
     
     width: 5.59453125%;
@@ -140,7 +182,7 @@
     height: auto;
     position: absolute;
     top: 44.31069444444444%;
-    z-index: 2;
+    z-index: 3;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -156,7 +198,7 @@
     height: auto;
     position: absolute;
     top: 50%;
-    z-index: 2;
+    z-index: 3;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -172,7 +214,7 @@
     max-width: 186.186;
     position: absolute;
     left: 50%;
-    z-index: 2;
+    z-index: 3;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
