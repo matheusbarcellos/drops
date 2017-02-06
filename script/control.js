@@ -21,14 +21,7 @@ function hoverhandler(type) {
     
 };
 
-function clickhandler(index) {
-    
-    if (firsttime === true) {
-        
-        firsttime = false;
-        buttonanimation = false;
-        
-    };
+function hidebuttonbackground() {
     
     if (ii === 0) {
             
@@ -59,6 +52,19 @@ function clickhandler(index) {
         document.getElementById("buttonchocolate").style.display = "none";
 
     };
+    
+};
+
+function clickhandler(index) {
+    
+    if (firsttime === true) {
+        
+        firsttime = false;
+        buttonanimation = false;
+        
+    };
+    
+    hidebuttonbackground();
     
     if (index === 0) {
         

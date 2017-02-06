@@ -17,6 +17,7 @@ var timerinterstitial = null;
 var currentcolorvisible = false;
 var portraitloaded = false;
 var landscapeloaded = false;
+var gameover = false;
 
 var admobid = {
       interstitial: 'xxxxxxxxx'
@@ -54,7 +55,12 @@ function uitutorial() {
 
     } else if ((score === 1) || (scorerecord === 1)) {
 
-        if (ii === 6) {
+        if ((ii === 0) && (gameover === false)) {
+            
+            document.getElementById("reward").style.opacity = "1";
+            document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
+            
+        } else if (ii === 6) {
 
             document.getElementById("reward").style.opacity = "1";
             document.getElementById("reward").style.filter  = 'alpha(opacity=100)';
@@ -256,7 +262,7 @@ function uichangecolor(reset) {
             
             uitutorial();
         
-        } else {
+        } else if (gameover === false) {
             
             document.getElementById("profile").style.opacity = "1";
             document.getElementById("profile").style.filter  = 'alpha(opacity=100)';
@@ -505,6 +511,7 @@ function checkcolor(reset) {
       
   } else {
       
+        gameover = true;
         fail();
       
         if ((score > 0) && (score < scorerecord)) {

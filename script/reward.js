@@ -306,6 +306,7 @@ function timergameover(index) {
             
         };
         
+        gameover = false;
         timerover = null;
 
     }, 2000);
