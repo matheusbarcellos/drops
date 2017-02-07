@@ -140,6 +140,14 @@ function uishowcolors() {
             document.getElementById("buttonred").style.display = "none";
             document.getElementById("buttonchocolate").style.display = "none";
             
+            document.getElementById("buttondownlilac").style.display = "inline";
+            document.getElementById("buttondownblue").style.display = "none";
+            document.getElementById("buttondowngreen").style.display = "none";
+            document.getElementById("buttondownyellow").style.display = "none";
+            document.getElementById("buttondownorange").style.display = "none";
+            document.getElementById("buttondownred").style.display = "none";
+            document.getElementById("buttondownchocolate").style.display = "none";
+            
             currentcolorvisible = true;
 
         } else if (ii === 1) {
@@ -155,6 +163,9 @@ function uishowcolors() {
             
             document.getElementById("buttonlilac").style.display = "none";
             document.getElementById("buttonblue").style.display = "inline";
+            
+            document.getElementById("buttondownlilac").style.display = "none";
+            document.getElementById("buttondownblue").style.display = "inline";
 
             currentcolorvisible = true;
 
@@ -171,6 +182,9 @@ function uishowcolors() {
             
             document.getElementById("buttonblue").style.display = "none";
             document.getElementById("buttongreen").style.display = "inline";
+            
+            document.getElementById("buttondownblue").style.display = "none";
+            document.getElementById("buttondowngreen").style.display = "inline";
 
             currentcolorvisible = true;
 
@@ -187,6 +201,9 @@ function uishowcolors() {
             
             document.getElementById("buttongreen").style.display = "none";
             document.getElementById("buttonyellow").style.display = "inline";
+            
+            document.getElementById("buttondowngreen").style.display = "none";
+            document.getElementById("buttondownyellow").style.display = "inline";
 
             currentcolorvisible = true;
 
@@ -203,6 +220,9 @@ function uishowcolors() {
             
             document.getElementById("buttonyellow").style.display = "none";
             document.getElementById("buttonorange").style.display = "inline";
+            
+            document.getElementById("buttondownyellow").style.display = "none";
+            document.getElementById("buttondownorange").style.display = "inline";
 
             currentcolorvisible = true;
 
@@ -219,6 +239,9 @@ function uishowcolors() {
             
             document.getElementById("buttonorange").style.display = "none";
             document.getElementById("buttonred").style.display = "inline";
+            
+            document.getElementById("buttondownorange").style.display = "none";
+            document.getElementById("buttondownred").style.display = "inline";
 
             currentcolorvisible = true;
 
@@ -235,6 +258,9 @@ function uishowcolors() {
             
             document.getElementById("buttonred").style.display = "none";
             document.getElementById("buttonchocolate").style.display = "inline";
+            
+            document.getElementById("buttondownred").style.display = "none";
+            document.getElementById("buttondownchocolate").style.display = "inline";
 
             currentcolorvisible = true;
 
@@ -807,7 +833,13 @@ function clickdelay() {
     document.getElementById("buttonred").onclick = "";
     document.getElementById("buttonchocolate").onclick = "";
     
-    document.getElementById("buttondown").onclick = "";
+    document.getElementById("buttondownlilac").onclick = "";
+    document.getElementById("buttondownblue").onclick = "";
+    document.getElementById("buttondowngreen").onclick = "";
+    document.getElementById("buttondownyellow").onclick = "";
+    document.getElementById("buttondownorange").onclick = "";
+    document.getElementById("buttondownred").onclick = "";
+    document.getElementById("buttondownchocolate").onclick = "";
     
     document.getElementById("buttonlilacdrop").onclick = "";
     document.getElementById("buttonbluedrop").onclick = "";
@@ -878,11 +910,13 @@ function orientationhandler(index) {
             document.getElementById("buttonred").className = "verticalbutton verticalbuttonup";
             document.getElementById("buttonchocolate").className = "verticalbutton verticalbuttonup";
             
-            document.getElementById("buttondown").className = "verticalbutton verticalbuttondown";
-            
-            
-            document.getElementById("buttondown").style.width = "auto";
-            document.getElementById("buttondown").style.maxWidth = "552";
+            document.getElementById("buttondownlilac").className = "verticalbutton verticalbuttondown";
+            document.getElementById("buttondownblue").className = "verticalbutton verticalbuttondown";
+            document.getElementById("buttondowngreen").className = "verticalbutton verticalbuttondown";
+            document.getElementById("buttondownyellow").className = "verticalbutton verticalbuttondown";
+            document.getElementById("buttondownorange").className = "verticalbutton verticalbuttondown";
+            document.getElementById("buttondownred").className = "verticalbutton verticalbuttondown";
+            document.getElementById("buttondownchocolate").className = "verticalbutton verticalbuttondown";
         
             document.getElementById("buttonlilacdrop").className = "verticalbutton verticaldrop";
             document.getElementById("buttonbluedrop").className = "verticalbutton verticaldrop";
@@ -1119,7 +1153,13 @@ function orientationhandler(index) {
                 document.getElementById("buttonred").className = "nofriendsbutton buttonup";
                 document.getElementById("buttonchocolate").className = "nofriendsbutton buttonup";
 
-                document.getElementById("buttondown").className = "nofriendsbutton";
+                document.getElementById("buttondownlilac").className = "nofriendsbutton buttondown";
+                document.getElementById("buttondownblue").className = "nofriendsbutton buttondown";
+                document.getElementById("buttondowngreen").className = "nofriendsbutton buttondown";
+                document.getElementById("buttondownyellow").className = "nofriendsbutton buttondown";
+                document.getElementById("buttondownorange").className = "nofriendsbutton buttondown";
+                document.getElementById("buttondownred").className = "nofriendsbutton buttondown";
+                document.getElementById("buttondownchocolate").className = "nofriendsbutton buttondown";
                 
                 document.getElementById("buttonlilacdrop").className = "nofriendsbutton nofriendsdrop";
                 document.getElementById("buttonbluedrop").className = "nofriendsbutton nofriendsdrop";
@@ -1139,7 +1179,13 @@ function orientationhandler(index) {
                 document.getElementById("buttonred").className = "button buttonup";
                 document.getElementById("buttonchocolate").className = "button buttonup";
 
-                document.getElementById("buttondown").className = "button";
+                document.getElementById("buttondownlilac").className = "button buttondown";
+                document.getElementById("buttondownblue").className = "button buttondown";
+                document.getElementById("buttondowngreen").className = "button buttondown";
+                document.getElementById("buttondownyellow").className = "button buttondown";
+                document.getElementById("buttondownorange").className = "button buttondown";
+                document.getElementById("buttondownred").className = "button buttondown";
+                document.getElementById("buttondownchocolate").className = "button buttondown";
                 
                 document.getElementById("buttonlilacdrop").className = "button drop";
                 document.getElementById("buttonbluedrop").className = "button drop";
@@ -1152,8 +1198,6 @@ function orientationhandler(index) {
             };
             
             
-            document.getElementById("buttondown").style.width = "16.54296875%";
-            document.getElementById("buttondown").style.maxWidth = "847";
             
             // Game Over
             document.getElementById("gameovertext").style.width = "33.37859375%";

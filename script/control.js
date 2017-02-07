@@ -1,10 +1,10 @@
 var timercontrol = null;
-var firsttime = true;
+//var firsttime = true;
 var buttonanimation = true;
 
 function hoverhandler(type) {
     
-    if (firsttime === true) {
+    //if (firsttime === true) {
         
         if (type === 0) {
         
@@ -17,54 +17,92 @@ function hoverhandler(type) {
 
         };
         
-    };
+    //};
     
 };
 
-function hidebuttonbackground() {
+function buttonbackground(type) {
     
-    if (ii === 0) {
+    if (type === 0) {
+        
+        if (ii === 0) {
             
-        document.getElementById("buttonlilac").style.display = "none";
+            document.getElementById("buttonlilac").style.display = "none";
 
-    } else if (ii === 1) {
+        } else if (ii === 1) {
 
-        document.getElementById("buttonblue").style.display = "none";
+            document.getElementById("buttonblue").style.display = "none";
 
-    } else if (ii === 2) {
+        } else if (ii === 2) {
 
-        document.getElementById("buttongreen").style.display = "none";
+            document.getElementById("buttongreen").style.display = "none";
 
-    } else if (ii === 3) {
+        } else if (ii === 3) {
 
-        document.getElementById("buttonyellow").style.display = "none";
+            document.getElementById("buttonyellow").style.display = "none";
 
-    } else if (ii === 4) {
+        } else if (ii === 4) {
 
-        document.getElementById("buttonorange").style.display = "none";
+            document.getElementById("buttonorange").style.display = "none";
 
-    } else if (ii === 5) {
+        } else if (ii === 5) {
 
-        document.getElementById("buttonred").style.display = "none";
+            document.getElementById("buttonred").style.display = "none";
 
-    } else if (ii === 6) {
+        } else if (ii === 6) {
 
-        document.getElementById("buttonchocolate").style.display = "none";
+            document.getElementById("buttonchocolate").style.display = "none";
 
+        };
+        
+    } else if (type === 1) {
+        
+        if (ii === 0) {
+            
+            document.getElementById("buttonlilac").style.display = "inline";
+
+        } else if (ii === 1) {
+
+            document.getElementById("buttonblue").style.display = "inline";
+
+        } else if (ii === 2) {
+
+            document.getElementById("buttongreen").style.display = "inline";
+
+        } else if (ii === 3) {
+
+            document.getElementById("buttonyellow").style.display = "inline";
+
+        } else if (ii === 4) {
+
+            document.getElementById("buttonorange").style.display = "inline";
+
+        } else if (ii === 5) {
+
+            document.getElementById("buttonred").style.display = "inline";
+
+        } else if (ii === 6) {
+
+            document.getElementById("buttonchocolate").style.display = "inline";
+
+        };
+        
     };
     
 };
 
 function clickhandler(index) {
     
+    /*
     if (firsttime === true) {
         
         firsttime = false;
         buttonanimation = false;
         
     };
+    */
     
-    hidebuttonbackground();
+    buttonbackground(0);
     
     if (index === 0) {
         
@@ -149,104 +187,14 @@ function clickhandler(index) {
 
 function clickanimation(indexanimation) {
     
-    if (i[1] === 0) {
-        
-        if (indexanimation === 0) {
+    if (indexanimation === 0) {
             
-            document.getElementById("buttonlilac").style.display = "none";
-            document.getElementById("buttonlilacdrop").style.display = "none";
-            
-        } else if (indexanimation === 1) {
-            
-            document.getElementById("buttonlilac").style.display = "inline";
-            document.getElementById("buttonlilacdrop").style.display = "inline";
-            
-        };
-        
-    } else if (i[1] === 1) {
-        
-        if (indexanimation === 0) {
-            
-            document.getElementById("buttonlilac").style.display = "none";
-            document.getElementById("buttonbluedrop").style.display = "none";
-            
-        } else if (indexanimation === 1) {
-            
-            document.getElementById("buttonlilac").style.display = "inline";
-            document.getElementById("buttonbluedrop").style.display = "inline";
-            
-        };
-        
-    } else if (i[1] === 2) {
-        
-        if (indexanimation === 0) {
-            
-            document.getElementById("buttonlilac").style.display = "none";
-            document.getElementById("buttongreendrop").style.display = "none";
-            
-        } else if (indexanimation === 1) {
-            
-            document.getElementById("buttonlilac").style.display = "inline";
-            document.getElementById("buttongreendrop").style.display = "inline";
-            
-        };
-        
-    } else if (i[1] === 3) {
-        
-        if (indexanimation === 0) {
-            
-            document.getElementById("buttonlilac").style.display = "none";
-            document.getElementById("buttonyellowdrop").style.display = "none";
-            
-        } else if (indexanimation === 1) {
-            
-            document.getElementById("buttonlilac").style.display = "inline";
-            document.getElementById("buttonyellowdrop").style.display = "inline";
-            
-        };
-        
-    } else if (i[1] === 4) {
-        
-        if (indexanimation === 0) {
-            
-            document.getElementById("buttonlilac").style.display = "none";
-            document.getElementById("buttonorangedrop").style.display = "none";
-            
-        } else if (indexanimation === 1) {
-            
-            document.getElementById("buttonlilac").style.display = "inline";
-            document.getElementById("buttonorangedrop").style.display = "inline";
-            
-        };
-        
-    } else if (i[1] === 5) {
-        
-        if (indexanimation === 0) {
-            
-            document.getElementById("buttonlilac").style.display = "none";
-            document.getElementById("buttonreddrop").style.display = "none";
-            
-        } else if (indexanimation === 1) {
-            
-            document.getElementById("buttonlilac").style.display = "inline";
-            document.getElementById("buttonreddrop").style.display = "inline";
-            
-        };
-        
-    } else if (i[1] === 6) {
-        
-        if (indexanimation === 0) {
-            
-            document.getElementById("buttonlilac").style.display = "none";
-            document.getElementById("buttonchocolatedrop").style.display = "none";
-            
-        } else if (indexanimation === 1) {
-            
-            document.getElementById("buttonlilac").style.display = "inline";
-            document.getElementById("buttonchocolatedrop").style.display = "inline";
-            
-        };
-        
+        buttonbackground(0);
+
+    } else if (indexanimation === 1) {
+
+        buttonbackground(1);
+
     };
     
 };

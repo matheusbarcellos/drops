@@ -77,8 +77,9 @@
     
 }
 
-#buttondown {
+.buttondown {
     
+    cursor: pointer;
     width: 16.54296875%;
     max-width: 847;
     
@@ -88,6 +89,8 @@
     
     cursor: pointer;
     max-height: 14.375%;
+    width: auto;
+    max-width: 552;
     
 }
 
